@@ -1,0 +1,675 @@
+{
+  "api": {
+    "HTMLOutputElement": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement",
+        "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#htmloutputelement",
+        "tags": [
+          "web-features:output"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "9"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "14"
+          },
+          "firefox": {
+            "version_added": "4"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": {
+            "version_added": "≤12.1"
+          },
+          "opera_android": {
+            "version_added": "≤12.1"
+          },
+          "safari": {
+            "version_added": "5.1"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": "3"
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "HTMLOutputElement": {
+        "__compat": {
+          "description": "`HTMLOutputElement()` constructor",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#htmloutputelement",
+          "tags": [
+            "web-features:output"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "checkValidity": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/checkValidity",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-checkvalidity-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "defaultValue": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/defaultValue",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-output-defaultvalue-dev",
+          "tags": [
+            "web-features:output"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "form": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/form",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fae-form-dev",
+          "tags": [
+            "web-features:output"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "htmlFor": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/htmlFor",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-output-htmlfor",
+          "tags": [
+            "web-features:output"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9",
+              "notes": "Before Chrome 50, this property returned the deprecated child `DOMSettableTokenList` instead of `DOMTokenList`."
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3",
+              "notes": "Before Chrome 50, this property returned the deprecated child `DOMSettableTokenList` instead of `DOMTokenList`."
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "labels": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/labels",
+          "spec_url": "https://html.spec.whatwg.org/multipage/forms.html#dom-lfe-labels-dev",
+          "tags": [
+            "web-features:output"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "18"
+            },
+            "firefox": {
+              "version_added": "56"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "name": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/name",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-fe-name",
+          "tags": [
+            "web-features:output"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "reportValidity": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/reportValidity",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-reportvalidity-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "40"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "49"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "10.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "setCustomValidity": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/setCustomValidity",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-setcustomvalidity-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9",
+              "notes": "This method only updates the validation error popup, not the tooltip that appears when hovering the mouse over the element, see [bug 41380670](https://crbug.com/41380670)."
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "type": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/type",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-output-type-dev",
+          "tags": [
+            "web-features:output"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "validationMessage": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/validationMessage",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-validationmessage-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "validity": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/validity",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-constraint-validation-api:dom-cva-validity",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "value": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/value",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-elements.html#dom-output-value-dev",
+          "tags": [
+            "web-features:output"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "willValidate": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLOutputElement/willValidate",
+          "spec_url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-cva-willvalidate-dev",
+          "tags": [
+            "web-features:constraint-validation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

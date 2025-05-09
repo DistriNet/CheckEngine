@@ -1,0 +1,325 @@
+{
+  "api": {
+    "XREquirectLayer": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/XREquirectLayer",
+        "spec_url": "https://immersive-web.github.io/layers/#xrequirectlayertype",
+        "tags": [
+          "web-features:webxr-layers"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": false
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": false
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": {
+            "version_added": "16.1"
+          },
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": true,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "centralHorizontalAngle": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XREquirectLayer/centralHorizontalAngle",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrequirectlayer-centralhorizontalangle",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "lowerVerticalAngle": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XREquirectLayer/lowerVerticalAngle",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrequirectlayer-lowerverticalangle",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "radius": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XREquirectLayer/radius",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrequirectlayer-radius",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "redraw_event": {
+        "__compat": {
+          "description": "`redraw` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XREquirectLayer/redraw_event",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrequirectlayer-onredraw",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "space": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XREquirectLayer/space",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrequirectlayer-space",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "transform": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XREquirectLayer/transform",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrequirectlayer-transform",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "upperVerticalAngle": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XREquirectLayer/upperVerticalAngle",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrequirectlayer-upperverticalangle",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "html": {
+    "elements": {
+      "input": {
+        "type_reset": {
+          "__compat": {
+            "description": "`type=\"reset\"`",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Element/input/reset",
+            "spec_url": "https://html.spec.whatwg.org/multipage/input.html#reset-button-state-(type=reset)",
+            "tags": [
+              "web-features:input-reset"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "1"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "1",
+                "notes": "Unlike other browsers, Firefox by default [persists the dynamic disabled state](https://stackoverflow.com/questions/5985839/bug-with-firefox-disabled-attribute-of-input-not-resetting-when-refreshing) of a `&lt;button&gt;` across page loads. Use the [`autocomplete`](https://developer.mozilla.org/docs/Web/HTML/Element/button#attr-autocomplete) attribute to control this feature."
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "≤11"
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

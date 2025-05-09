@@ -1,0 +1,451 @@
+{
+  "api": {
+    "HTMLTrackElement": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement",
+        "spec_url": "https://html.spec.whatwg.org/multipage/media.html#htmltrackelement",
+        "tags": [
+          "web-features:text-tracks"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "23"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "12"
+          },
+          "firefox": {
+            "version_added": "31",
+            "notes": "Before Firefox 50, text tracks would only load if the `&lt;track&gt;` element is in a document."
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": "10"
+          },
+          "oculus": "mirror",
+          "opera": {
+            "version_added": "12"
+          },
+          "opera_android": {
+            "version_added": "12"
+          },
+          "safari": {
+            "version_added": "6"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "cuechange_event": {
+        "__compat": {
+          "description": "`cuechange` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/cuechange_event",
+          "spec_url": [
+            "https://html.spec.whatwg.org/multipage/media.html#event-media-cuechange",
+            "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncuechange"
+          ],
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": [
+              {
+                "version_added": "32"
+              },
+              {
+                "version_added": "23",
+                "partial_implementation": true,
+                "notes": "The `oncuechange` event handler property is not supported."
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "68"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": [
+              {
+                "version_added": "19"
+              },
+              {
+                "version_added": "15",
+                "partial_implementation": true,
+                "notes": "The `oncuechange` event handler property is not supported."
+              },
+              {
+                "version_added": "12",
+                "version_removed": "15"
+              }
+            ],
+            "opera_android": [
+              {
+                "version_added": "19"
+              },
+              {
+                "version_added": "14",
+                "partial_implementation": true,
+                "notes": "The `oncuechange` event handler property is not supported."
+              },
+              {
+                "version_added": "12",
+                "version_removed": "14"
+              }
+            ],
+            "safari": [
+              {
+                "version_added": "10"
+              },
+              {
+                "version_added": "6",
+                "partial_implementation": true,
+                "notes": "The `oncuechange` event handler property is not supported."
+              }
+            ],
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": [
+              {
+                "version_added": "4.4.3"
+              },
+              {
+                "version_added": "≤37",
+                "partial_implementation": true,
+                "notes": "The `oncuechange` event handler property is not supported."
+              }
+            ],
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "default": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/default",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#dom-track-default",
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "31"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "kind": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/kind",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#dom-track-kind",
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "31"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "label": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/label",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#dom-track-label",
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "31"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "readyState": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/readyState",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#dom-track-readystate-dev",
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "31"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "src": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/src",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#dom-track-src",
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "31",
+              "notes": "Before Firefox 50, setting the `src` property did not work properly."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "srclang": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/srclang",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#dom-track-srclang",
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "31"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "track": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/track",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#dom-track-track-dev",
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "31"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

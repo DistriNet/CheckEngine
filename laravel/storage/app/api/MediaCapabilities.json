@@ -1,0 +1,162 @@
+{
+  "api": {
+    "MediaCapabilities": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities",
+        "spec_url": "https://w3c.github.io/media-capabilities/#media-capabilities-interface",
+        "support": {
+          "chrome": {
+            "version_added": "66"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "63"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": {
+            "version_added": "48"
+          },
+          "safari": {
+            "version_added": "13"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "decodingInfo": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/decodingInfo",
+          "spec_url": "https://w3c.github.io/media-capabilities/#ref-for-dom-mediacapabilities-decodinginfo",
+          "support": {
+            "chrome": {
+              "version_added": "66",
+              "notes": [
+                "`codecs` string can contain any subset of optional parameters (should be all or none).",
+                "Errors if `codecs` string contains unexpected characters (should evaluate string up to character)."
+              ]
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "63",
+              "notes": [
+                "The `webrtc` value of the `type` option is named `transmission`.",
+                "Before Firefox 101, `decodingInfo()` ignored `codecs` parameter options for `av01` codecs (treating them as `av1`)."
+              ]
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": {
+              "version_added": "48",
+              "notes": [
+                "`codecs` string can contain any subset of optional parameters (should be all or none).",
+                "Errors if `codecs` string contains unexpected characters (should evaluate string up to character)."
+              ]
+            },
+            "safari": {
+              "version_added": "13"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "configuration_keySystemConfiguration_parameter": {
+          "__compat": {
+            "description": "`configuration.keySystemConfiguration` parameter",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/decodingInfo#keysystemconfiguration",
+            "spec_url": "https://w3c.github.io/media-capabilities/#dom-mediadecodingconfiguration-keysystemconfiguration",
+            "support": {
+              "chrome": {
+                "version_added": "80"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "129"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      },
+      "encodingInfo": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/encodingInfo",
+          "spec_url": "https://w3c.github.io/media-capabilities/#ref-for-dom-mediacapabilities-encodinginfo",
+          "support": {
+            "chrome": {
+              "version_added": "101"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "63",
+              "notes": "The `webrtc` value of the `type` option is named `transmission`."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

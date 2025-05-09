@@ -1,0 +1,304 @@
+{
+  "html": {
+    "elements": {
+      "track": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Element/track",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#the-track-element",
+          "tags": [
+            "web-features:text-tracks"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "23"
+            },
+            "chrome_android": {
+              "version_added": "25",
+              "notes": "Doesn't work for fullscreen video."
+            },
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "31"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12.1"
+            },
+            "opera_android": {
+              "version_added": "12.1"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "default": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-track-default",
+            "tags": [
+              "web-features:text-tracks"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "23"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "31"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "12.1"
+              },
+              "opera_android": {
+                "version_added": "12.1"
+              },
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "kind": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-track-kind",
+            "tags": [
+              "web-features:text-tracks"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "23"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "31"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "12.1"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          },
+          "descriptions": {
+            "__compat": {
+              "description": "`kind='descriptions'`",
+              "support": {
+                "chrome": {
+                  "version_added": false,
+                  "impl_url": "https://crbug.com/40913979"
+                },
+                "chrome_android": "mirror",
+                "edge": "mirror",
+                "firefox": {
+                  "version_added": false,
+                  "impl_url": "https://bugzil.la/1871143"
+                },
+                "firefox_android": "mirror",
+                "ie": {
+                  "version_added": false
+                },
+                "oculus": "mirror",
+                "opera": "mirror",
+                "opera_android": "mirror",
+                "safari": {
+                  "version_added": false,
+                  "impl_url": "https://webkit.org/b/266724"
+                },
+                "safari_ios": "mirror",
+                "samsunginternet_android": "mirror",
+                "webview_android": "mirror",
+                "webview_ios": "mirror"
+              },
+              "status": {
+                "experimental": false,
+                "standard_track": true,
+                "deprecated": false
+              }
+            }
+          }
+        },
+        "label": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-track-label",
+            "tags": [
+              "web-features:text-tracks"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "23"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "31"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "12.1"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "src": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-track-src",
+            "tags": [
+              "web-features:text-tracks"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "23"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": [
+                {
+                  "version_added": "50"
+                },
+                {
+                  "version_added": "31",
+                  "partial_implementation": true,
+                  "notes": "Before Firefox 50, setting the `src` didn't work, though it didn't raise an error."
+                }
+              ],
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "12.1"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "srclang": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-track-srclang",
+            "tags": [
+              "web-features:text-tracks"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "23"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "31"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "12.1"
+              },
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

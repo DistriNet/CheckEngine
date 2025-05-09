@@ -1,0 +1,426 @@
+{
+  "api": {
+    "PushManager": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager",
+        "spec_url": "https://w3c.github.io/push-api/#pushmanager-interface",
+        "tags": [
+          "web-features:push"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "42"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "17"
+          },
+          "firefox": {
+            "version_added": "44"
+          },
+          "firefox_android": {
+            "version_added": "48"
+          },
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "16",
+            "notes": "Notifications are supported on macOS Ventura and later."
+          },
+          "safari_ios": {
+            "version_added": "16.4",
+            "notes": "Notifications are supported in web apps saved to the home screen."
+          },
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": false
+          },
+          "webview_ios": {
+            "version_added": false,
+            "notes": "Notifications are supported in web apps saved to the home screen."
+          }
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "getSubscription": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager/getSubscription",
+          "spec_url": "https://w3c.github.io/push-api/#dom-pushmanager-getsubscription",
+          "tags": [
+            "web-features:push"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "42"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "48"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16",
+              "notes": "Notifications are supported on macOS Ventura and later."
+            },
+            "safari_ios": {
+              "version_added": "16.4",
+              "notes": "Notifications are supported in web apps saved to the home screen."
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": {
+              "version_added": false,
+              "notes": "Notifications are supported in web apps saved to the home screen."
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "hasPermission": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager/hasPermission",
+          "support": {
+            "chrome": {
+              "version_added": "42"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "48"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "permissionState": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager/permissionState",
+          "spec_url": "https://w3c.github.io/push-api/#dom-pushmanager-permissionstate",
+          "tags": [
+            "web-features:push"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "44"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "48"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16",
+              "notes": "Notifications are supported on macOS Ventura and later."
+            },
+            "safari_ios": {
+              "version_added": "16.4",
+              "notes": "Notifications are supported in web apps saved to the home screen."
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": {
+              "version_added": false,
+              "notes": "Notifications are supported in web apps saved to the home screen."
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "register": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager/register",
+          "support": {
+            "chrome": {
+              "version_added": "42"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "48"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "registrations": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager/registrations",
+          "support": {
+            "chrome": {
+              "version_added": "42"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "48"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "subscribe": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager/subscribe",
+          "spec_url": "https://w3c.github.io/push-api/#dom-pushmanager-subscribe",
+          "tags": [
+            "web-features:push"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "42",
+              "notes": "The `options` parameter with a `applicationServerKey` value is required."
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "17",
+              "notes": "The `options` parameter with a `applicationServerKey` value is required."
+            },
+            "firefox": {
+              "version_added": "44",
+              "notes": "From Firefox 72 onwards, can only be called in response to a user gesture such as a `click` event."
+            },
+            "firefox_android": {
+              "version_added": "48",
+              "notes": "From Firefox Android 79 onwards, can only be called in response to a user gesture such as a `click` event."
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "29"
+            },
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16",
+              "notes": "Notifications are supported on macOS Ventura and later."
+            },
+            "safari_ios": {
+              "version_added": "16.4",
+              "notes": "Notifications are supported in web apps saved to the home screen."
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": {
+              "version_added": false,
+              "notes": "Notifications are supported in web apps saved to the home screen."
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "supportedContentEncodings_static": {
+        "__compat": {
+          "description": "`supportedContentEncodings` static property",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager/supportedContentEncodings_static",
+          "spec_url": "https://w3c.github.io/push-api/#dom-pushmanager-supportedcontentencodings",
+          "tags": [
+            "web-features:push"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "60"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "134"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16",
+              "notes": "Notifications are supported on macOS Ventura and later."
+            },
+            "safari_ios": {
+              "version_added": "16.4",
+              "notes": "Notifications are supported in web apps saved to the home screen."
+            },
+            "samsunginternet_android": {
+              "version_added": "4.0"
+            },
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": {
+              "version_added": false,
+              "notes": "Notifications are supported in web apps saved to the home screen."
+            }
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "unregister": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/PushManager/unregister",
+          "support": {
+            "chrome": {
+              "version_added": "42"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "17"
+            },
+            "firefox": {
+              "version_added": "44"
+            },
+            "firefox_android": {
+              "version_added": "48"
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      }
+    }
+  }
+}

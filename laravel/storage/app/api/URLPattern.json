@@ -1,0 +1,576 @@
+{
+  "api": {
+    "URLPattern": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern",
+        "spec_url": "https://urlpattern.spec.whatwg.org/#urlpattern",
+        "tags": [
+          "web-features:urlpattern"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "95"
+          },
+          "chrome_android": "mirror",
+          "deno": {
+            "version_added": "1.15"
+          },
+          "edge": "mirror",
+          "firefox": {
+            "version_added": false,
+            "impl_url": "https://bugzil.la/1731418"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": true,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "URLPattern": {
+        "__compat": {
+          "description": "`URLPattern()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/URLPattern",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-urlpattern",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "ignoreCase_option": {
+          "__compat": {
+            "description": "`ignoreCase` option",
+            "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpatternoptions-ignorecase",
+            "tags": [
+              "web-features:urlpattern"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "107"
+              },
+              "chrome_android": "mirror",
+              "deno": {
+                "version_added": false
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": true,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      },
+      "exec": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/exec",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-exec",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "hash": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/hash",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-hash",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "hasRegExpGroups": {
+        "__compat": {
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-hasregexpgroups",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "122"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "hostname": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/hostname",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-hostname",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "password": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/password",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-password",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "pathname": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/pathname",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-pathname",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "port": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/port",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-port",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "protocol": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/protocol",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-protocol",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "search": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/search",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-search",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "test": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/test",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-test",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "username": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/URLPattern/username",
+          "spec_url": "https://urlpattern.spec.whatwg.org/#dom-urlpattern-username",
+          "tags": [
+            "web-features:urlpattern"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "95"
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": "1.15"
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

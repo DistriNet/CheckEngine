@@ -1,0 +1,308 @@
+{
+  "api": {
+    "LargestContentfulPaint": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint",
+        "spec_url": "https://w3c.github.io/largest-contentful-paint/#sec-largest-contentful-paint-interface",
+        "tags": [
+          "web-features:largest-contentful-paint"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "77"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "122"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "element": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/element",
+          "spec_url": "https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-element",
+          "tags": [
+            "web-features:largest-contentful-paint"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "122"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "id": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/id",
+          "spec_url": "https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-id",
+          "tags": [
+            "web-features:largest-contentful-paint"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "122"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "loadTime": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/loadTime",
+          "spec_url": "https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-loadtime",
+          "tags": [
+            "web-features:largest-contentful-paint"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "122"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "renderTime": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/renderTime",
+          "spec_url": "https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-rendertime",
+          "tags": [
+            "web-features:largest-contentful-paint"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "122"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "size": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/size",
+          "spec_url": "https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-size",
+          "tags": [
+            "web-features:largest-contentful-paint"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "122"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "toJSON": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/toJSON",
+          "spec_url": "https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-tojson",
+          "tags": [
+            "web-features:largest-contentful-paint"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "122"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "url": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/url",
+          "spec_url": "https://w3c.github.io/largest-contentful-paint/#dom-largestcontentfulpaint-url",
+          "tags": [
+            "web-features:largest-contentful-paint"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "122"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

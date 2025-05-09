@@ -1,0 +1,412 @@
+id,title,timeout,behaviour,failure_severity,parent,execute_order,test_function,live
+403,Child iframe changing location of parent iframe with sandbox allow-top-navigation,,allow,warning,36,21,"cspTest(403, 228, ""sandbox allow-same-origin allow-scripts allow-top-navigation"", false, {})",f
+406,report not received when report-uri is a redirect,300,block,warning,34,2,"cspTest(406, 231, ""default-src 'none'; report-uri /redirect/""+$.base64.encode(""/csp/fail/231/emptyhtml?sessid=""+$.cookie(""sessid"")), true, { timeout: 300 })",t
+383,DOM access from child iframe on https://browseraudit.com to parent iframe on https://browseraudit.com with sandbox allow-same-origin,,allow,warning,36,1,"cspTest(383, 200, ""sandbox allow-same-origin allow-scripts"", false, {})",t
+297,iframe from https://test.browseraudit.com with default-src 'self',,block,warning,19,7,"cspTest(297, 114, ""default-src 'self'"", true, {})",t
+93,cookie for .browseraudit.org set by test.browseraudit.org is not sent to browseraudit.com,,block,critical,8,9,"domainScopeCookieTest(93, true, 3, 2, 0)",t
+328,@font-face from https://test.browseraudit.com in inline stylesheet with default-src 'none',300,block,warning,33,18,"cspTest(328, 145, ""default-src 'none'; style-src 'unsafe-inline'"", true, { timeout: 300 })",t
+329,@font-face from https://test.browseraudit.com in inline stylesheet with default-src 'self',300,block,warning,33,19,"cspTest(329, 146, ""default-src 'self'; style-src 'unsafe-inline'"", true, { timeout: 300 })",t
+313,@font-face from https://browseraudit.com in inline stylesheet with font-src 'self',300,allow,warning,33,3,"cspTest(313, 130, ""default-src 'none'; style-src 'unsafe-inline'; font-src 'self'"", false, { timeout: 300 })",t
+333,@font-face from https://test.browseraudit.com in @import in inline stylesheet with default-src https://test.browseraudit.com,300,allow,warning,33,23,"cspTest(333, 150, ""default-src {1}; style-src 'self' 'unsafe-inline'"", false, { timeout: 300 })",t
+322,@font-face from https://browseraudit.com in stylesheet included via <link> with font-src 'none',300,block,warning,33,12,"cspTest(322, 139, ""default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'none'"", true, { timeout: 300 })",t
+169,cookie set by JavaScript should be sent over HTTPS,,allow,critical,27,3,cookiesSecureScriptToServerHTTPS(169),t
+49,"parent: document.domain not set, child: document.domain not set",,block,critical,6,1,"parentChildSopTest(49, true, true, 1, ""none"", 0, ""none"")",t
+207,script from https://browseraudit.com with default-src 'self',,allow,warning,13,1,"cspTest(207, 38, ""default-src 'self'"", false, {})",t
+273,audio from https://browseraudit.com with media-src 'self',,allow,warning,18,3,"cspTest(273, 90, ""default-src 'none'; media-src 'self'"", false, {})",t
+185,stylesheet from https://browseraudit.com with default-src 'self',,allow,warning,12,1,"cspTest(185, 1, ""default-src 'self'"", false, {})",t
+307,frame from https://test.browseraudit.com with default-src 'self',,block,warning,19,17,"cspTest(307, 124, ""default-src 'self'"", true, {})",t
+309,frame from https://test.browseraudit.com with frame-src 'none',,block,warning,19,19,"cspTest(309, 126, ""default-src {1}; frame-src 'none'"", true, {})",t
+310,frame from https://test.browseraudit.com with frame-src 'self',,block,warning,19,20,"cspTest(310, 127, ""default-src 'none'; frame-src 'self'"", true, {})",t
+94,cookie for .browseraudit.org set by test.browseraudit.org is not sent to test.browseraudit.com,,block,critical,8,10,"domainScopeCookieTest(94, true, 3, 2, 1)",t
+326,@font-face from https://browseraudit.com in @import in stylesheet included via <link> with font-src 'none',300,block,warning,33,16,"cspTest(326, 143, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'none'"", true, { timeout: 300 })",t
+337,@font-face from https://test.browseraudit.com in @import in inline stylesheet with font-src 'none',300,block,warning,33,27,"cspTest(337, 154, ""default-src {1}; style-src 'self' 'unsafe-inline'; font-src 'none'"", true, { timeout: 300 })",t
+343,@font-face from https://test.browseraudit.com in stylesheet included via <link> with font-src 'none',300,block,warning,33,33,"cspTest(343, 160, ""default-src {1}; style-src 'self' 'unsafe-inline'; font-src 'none'"", true, { timeout: 300 })",t
+346,@font-face from https://test.browseraudit.com in @import in stylesheet included via <link> with default-src 'none',300,block,warning,33,36,"cspTest(346, 163, ""default-src 'none'; style-src 'self'  'unsafe-inline'"", true, { timeout: 300 })",f
+348,@font-face from https://test.browseraudit.com in @import in stylesheet included via <link> with font-src https://test.browseraudit.com,300,allow,warning,33,38,"cspTest(348, 165, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src {1}"", false, { timeout: 300 })",t
+350,@font-face from https://test.browseraudit.com in @import in stylesheet included via <link> with font-src 'self',300,block,warning,33,40,"cspTest(350, 167, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'self'"", true, { timeout: 300 })",t
+399,Submission of form via GET with sandbox allow-forms,300,allow,warning,36,17,"cspTest(399, 224, ""sandbox allow-scripts allow-forms"", false, { timeout: 300 })",t
+314,@font-face from https://browseraudit.com in inline stylesheet with font-src 'none',300,block,warning,33,4,"cspTest(314, 131, ""default-src 'self'; style-src 'unsafe-inline'; font-src 'none'"", true, { timeout: 300 })",t
+405,report received,300,block,warning,34,1,"cspTest(405, 230, ""default-src 'none'; report-uri /csp/pass/230/emptyhtml?sessid=""+$.cookie(""sessid""), false, { timeout: 300 })",t
+69,https://test.browseraudit.com to https://test.browseraudit.org (host mismatch),,block,critical,7,13,"ajaxSopTest(69, true, 1, 3)",t
+316,@font-face from https://browseraudit.com in @import in inline stylesheet with default-src 'none',300,block,warning,33,6,"cspTest(316, 133, ""default-src 'none'; style-src 'self' 'unsafe-inline'"", true, { timeout: 300 })",t
+338,@font-face from https://test.browseraudit.com in @import in inline stylesheet with font-src 'self',300,block,warning,33,28,"cspTest(338, 155, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'self'"", true, { timeout: 300 })",t
+341,@font-face from https://test.browseraudit.com in stylesheet included via <link> with default-src 'self',300,block,warning,33,31,"cspTest(341, 158, ""default-src 'self'; style-src 'self' 'unsafe-inline'"", true, { timeout: 300 })",t
+344,@font-face from https://test.browseraudit.com in stylesheet included via <link> with font-src 'self',300,block,warning,33,34,"cspTest(344, 161, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'self'"", true, { timeout: 300 })",t
+170,cookie set by JavaScript should not be sent over HTTP,,block,critical,27,4,cookiesSecureScriptToServerHTTP(170),t
+254,embed from https://browseraudit.com with object-src 'none',300,block,warning,16,14,"cspTest(254, 59, ""default-src 'self'; object-src 'none'"", true, { timeout: 300 })",t
+25,"parent: document.domain not set, child: document.domain not set",,block,critical,3,1,"parentChildSopTest(25, true, false, 0, ""none"", 1, ""none"")",t
+28,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""test.browseraudit.com""",,block,critical,3,4,"parentChildSopTest(28, true, false, 0, 0, 1, 1)",t
+32,"parent: document.domain = ""audit.com"", child: document.domain = ""audit.com""",,block,critical,3,8,"parentChildSopTest(32, true, false, 0, ""audit.com"", 1, ""audit.com"")",t
+264,image from https://browseraudit.com with img-src 'none',,block,warning,17,4,"cspTest(264, 81, ""default-src 'self'; img-src 'none'"", true, {})",t
+267,image from https://test.browseraudit.com with default-src 'self',,block,warning,17,7,"cspTest(267, 84, ""default-src 'self'"", true, {})",t
+270,image from https://test.browseraudit.com with img-src 'self',,block,warning,17,10,"cspTest(270, 87, ""default-src 'none'; img-src 'self'"", true, {})",t
+137,"Request with custom headers X-My-Header and X-Another-Header with Access-Control-Allow-Headers: X-Yet-Another-Header, X-My-Header, X-Another-Header",,allow,warning,23,14,"headersExpect(137, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""X-Yet-Another-Header, X-My-Header, X-Another-Header"", false)",t
+159,Caller can't access Date with no Access-Control-Expose-Headers header,,block,warning,24,22,"exposeExpect(159, ""Date"", ""none"", true)",t
+162,Caller can't access Date with Access-Control-Expose-Headers: Server,,block,warning,24,25,"exposeExpect(162, ""Date"", ""Server"", true)",t
+345,@font-face from https://test.browseraudit.com in @import in stylesheet included via <link> with default-src https://test.browseraudit.com,300,allow,warning,33,35,"cspTest(345, 162, ""default-src {1}; style-src 'self' 'unsafe-inline'"", false, { timeout: 300 })",t
+97,cookie for .test.browseraudit.com set by browseraudit.com is not sent to test.browseraudit.com (illegal parameter),,block,critical,9,1,"domainScopeCookieTest(97, true, 0, 1, 1)",t
+101,cookie for .com set by test.browseraudit.com is not sent to browseraudit.com (illegal parameter),,block,critical,9,5,"domainScopeCookieTest(101, true, 1, "".com"", 0)",t
+385,DOM access from child iframe on https://test.browseraudit.com to parent iframe on https://browseraudit.com with sandbox allow-same-origin,,block,warning,36,3,"cspTest(385, 202, ""sandbox allow-same-origin allow-scripts"", true, {})",t
+398,Script execution via onload event without sandbox allow-scripts,300,block,warning,36,16,"cspTest(398, 223, ""sandbox"", true, { timeout: 300 })",t
+121,Method OPTIONS with Access-Control-Allow-Methods: CONNECT,,block,warning,22,13,"methodExpect(121, ""OPTIONS"", ""CONNECT"", true)",t
+104,request to https://test.browseraudit.com with no Access-Control-Allow-Origin header,,block,warning,21,1,"originExpect(104, ""none"", true)",t
+96,cookie for .test.browseraudit.org set by test.browseraudit.org is not sent to test.browseraudit.com,,block,critical,8,12,"domainScopeCookieTest(96, true, 3, 3, 1)",t
+176,frame from remote origin with SAMEORIGIN,,block,warning,31,6,"frameOptionsTest(176, true, 1, ""SAMEORIGIN"")",t
+26,"parent: document.domain not set, child: document.domain = ""browseraudit.com""",,block,critical,3,2,"parentChildSopTest(26, true, false, 0, ""none"", 1, 0)",t
+34,"parent: document.domain not set, child: document.domain = ""browseraudit.com""",,block,critical,4,2,"parentChildSopTest(34, true, true, 0, ""none"", 1, 0)",t
+347,@font-face from https://test.browseraudit.com in @import in stylesheet included via <link> with default-src 'self',300,block,warning,33,37,"cspTest(347, 164, ""default-src 'self'; style-src 'self' 'unsafe-inline'"", true, { timeout: 300 })",f
+320,@font-face from https://browseraudit.com in stylesheet included via <link> with default-src 'none',300,block,warning,33,10,"cspTest(320, 137, ""default-src 'none'; style-src 'self' 'unsafe-inline'"", true, { timeout: 300 })",t
+360,XMLHttpRequest.open() to https://test.browseraudit.com with connect-src 'self',,block,warning,35,10,"cspTest(360, 177, ""connect-src 'none'; script-src 'unsafe-inline'; connect-src 'self'"", true, {})",t
+373,EventSource connecting to https://browseraudit.com with default-src 'self',300,allow,warning,35,23,"cspTest(373, 190, ""default-src 'self'; script-src 'unsafe-inline'"", false, { timeout: 300 })",t
+375,EventSource connecting to https://browseraudit.com with connect-src 'self',300,allow,warning,35,25,"cspTest(375, 192, ""default-src 'none'; script-src 'unsafe-inline'; connect-src 'self'"", false, { timeout: 300 })",t
+352,XMLHttpRequest.open() to https://browseraudit.com with default-src 'none',,block,warning,35,2,"cspTest(352, 169, ""default-src 'none'; script-src 'unsafe-inline'"", true, {})",t
+400,Submission of form via GET without sandbox allow-forms,300,block,warning,36,18,"cspTest(400, 225, ""sandbox allow-scripts"", true, { timeout: 300 })",t
+127,"Request with custom header X-My-Header with Access-Control-Allow-Headers: X-Another-Header, X-My-Header",,allow,warning,23,4,"headersExpect(127, {""X-My-Header"": ""foo""}, ""X-Another-Header, X-My-Header"", false)",t
+150,Caller can access Content-Length with Access-Control-Expose-Headers: Content-Length,,allow,warning,24,13,"exposeExpect(150, ""Content-Length"", ""Content-Length"", false)",t
+155,Caller can access Connection with Access-Control-Expose-Headers: Connection,,allow,warning,24,18,"exposeExpect(155, ""Connection"", ""Connection"", false)",t
+158,"Caller can't access Connection with Access-Control-Expose-Headers: Server, Date",,block,warning,24,21,"exposeExpect(158, ""Connection"", ""Server, Date"", true)",t
+160,Caller can access Date with Access-Control-Expose-Headers: Date,,allow,warning,24,23,"exposeExpect(160, ""Date"", ""Date"", false)",t
+408,stylesheet from https://browseraudit.com with default-src 'none',,allow,warning,37,2,"cspTest(408, 215, ""sandbox allow-scripts"", true, {})",f
+409,eval() with default-src 'unsafe-eval',,allow,warning,37,3,"cspTest(409, 216, ""sandbox allow-same-origin allow-scripts"", false, {})",f
+60,https://test.browseraudit.com to http://test.browseraudit.com (scheme mismatch),,block,critical,7,4,"ajaxSopTest(60, true, 1, 5)",t
+57,https://browseraudit.com to https://browseraudit.com (allowed),,allow,critical,7,1,"ajaxSopTest(57, false, 0, 0)",t
+168,cookie set by server should not be sent over HTTP,,block,critical,27,2,cookiesSecureServerToScriptHTTP(168),t
+71,https://browseraudit.org to https://test.browseraudit.org (host mismatch),,block,critical,7,15,"ajaxSopTest(71, true, 2, 3)",t
+103,cookie with path /sop/path/ should not be sent to /sop/save_cookie/*,,block,critical,10,2,"cookiePathScope(103, true, ""soppathscope2"")",t
+95,cookie for .test.browseraudit.org set by test.browseraudit.org is not sent to browseraudit.com,,block,critical,8,11,"domainScopeCookieTest(95, true, 3, 3, 0)",t
+365,WebSocket connecting to wss://browseraudit.com with connect-src 'none',300,block,warning,35,15,"cspTest(365, 182, ""default-src 'self'; script-src 'unsafe-inline'; connect-src 'none'"", true, { timeout: 300 })",t
+98,cookie for .com set by browseraudit.com is not sent to test.browseraudit.com (illegal parameter),,block,critical,9,2,"domainScopeCookieTest(98, true, 0, "".com"", 1)",t
+100,cookie for .com set by browseraudit.com is not sent to browseraudit.com (illegal parameter),,block,critical,9,4,"domainScopeCookieTest(100, true, 0, "".com"", 0)",t
+42,"parent: document.domain not set, child: document.domain = ""browseraudit.com""",,block,critical,5,2,"parentChildSopTest(42, true, false, 1, ""none"", 0, 0)",t
+46,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""browseraudit.com""",,allow,critical,5,6,"parentChildSopTest(46, false, false, 1, 0, 0, 0)",t
+52,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""test.browseraudit.com""",,block,critical,6,4,"parentChildSopTest(52, true, true, 1, 0, 0, 1)",t
+209,script from https://browseraudit.com with script-src 'self',,allow,warning,13,3,"cspTest(209, 40, ""default-src 'none'; script-src 'self'"", false, {})",t
+72,https://test.browseraudit.org to https://test.browseraudit.org (host mismatch),,block,critical,7,16,"ajaxSopTest(72, true, 3, 3)",f
+107,request to https://test.browseraudit.com with Access-Control-Allow-Origin: https://test.browseraudit.com,,block,warning,21,4,"originExpect(107, 1, true)",t
+214,script from https://test.browseraudit.com with script-src https://test.browseraudit.com,,allow,warning,13,8,"cspTest(214, 44, ""default-src 'none'; script-src {1}"", false, {})",t
+172,frame from same origin with SAMEORIGIN,,allow,warning,31,2,"frameOptionsTest(172, false, 0, ""SAMEORIGIN"")",t
+370,WebSocket connecting to wss://test.browseraudit.com with connect-src 'self',300,block,warning,35,20,"cspTest(370, 187, ""default-src 'none'; script-src 'unsafe-inline'; connect-src 'self'"", true, { timeout: 300 })",t
+186,stylesheet from https://browseraudit.com with default-src 'none',,block,warning,12,2,"cspTest(186, 2, ""default-src 'none'"", true, {})",t
+187,stylesheet from https://browseraudit.com with style-src 'self',,allow,warning,12,3,"cspTest(187, 20, ""default-src 'none'; style-src 'self'"", false, {})",t
+188,stylesheet from https://browseraudit.com with style-src 'none',,block,warning,12,4,"cspTest(188, 21, ""default-src 'self'; style-src 'none'"", true, {})",t
+191,stylesheet @import from https://browseraudit.com with style-src 'self',,allow,warning,12,7,"cspTest(191, 32, ""default-src 'none'; style-src 'unsafe-inline' 'self'"", false, {})",t
+193,stylesheet @import from file from https://browseraudit.com with default-src 'self',,allow,warning,12,9,"cspTest(193, 34, ""default-src 'self'"", false, {})",t
+374,EventSource connecting to https://browseraudit.com with default-src 'none',300,block,warning,35,24,"cspTest(374, 191, ""default-src 'none'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+377,EventSource connecting to https://test.browseraudit.com with default-src https://test.browseraudit.com,300,allow,warning,35,27,"cspTest(377, 194, ""default-src {1}; script-src 'unsafe-inline'"", false, { timeout: 300 })",t
+387,XMLHttpRequest from child iframe on https://browseraudit.com to https://browseraudit.com with sandbox allow-same-origin,,allow,warning,36,5,"cspTest(387, 204, ""sandbox allow-same-origin allow-scripts"", false, {})",t
+109,Method PUT with Access-Control-Allow-Methods: PUT,,allow,warning,22,1,"methodExpect(109, ""PUT"", ""PUT"", false)",t
+410,eval() without 'unsafe-eval',,allow,warning,37,4,"cspTest(410, 217, ""sandbox allow-scripts"", true, {})",f
+105,request to https://test.browseraudit.com with Access-Control-Allow-Origin: https://browseraudit.com,,allow,warning,21,2,"originExpect(105, 0, false)",t
+106,request to https://test.browseraudit.com with Access-Control-Allow-Origin: *,,allow,warning,21,3,"originExpect(106, ""*"", false)",t
+311,@font-face from https://browseraudit.com in inline stylesheet with default-src 'self',300,allow,warning,33,1,"cspTest(311, 128, ""default-src 'self'; style-src 'unsafe-inline'"", false, { timeout: 300 })",t
+349,@font-face from https://test.browseraudit.com in @import in stylesheet included via <link> with font-src 'none',300,block,warning,33,39,"cspTest(349, 166, ""default-src {1}; style-src 'self' 'unsafe-inline'; font-src 'none'"", true, { timeout: 300 })",t
+379,EventSource connecting to https://test.browseraudit.com with default-src 'self',300,block,warning,35,29,"cspTest(379, 196, ""default-src 'self'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+381,EventSource connecting to https://test.browseraudit.com with connect-src 'none',300,block,warning,35,31,"cspTest(381, 198, ""default-src 'self'; script-src 'unsafe-inline'; connect-src 'none'"", true, { timeout: 300 })",t
+356,XMLHttpRequest.open() to https://test.browseraudit.com with default-src 'none',,block,warning,35,6,"cspTest(356, 173, ""default-src 'none'; script-src 'unsafe-inline'"", true, {})",t
+388,XMLHttpRequest from child iframe on https://browseraudit.com to https://browseraudit.com without sandbox allow-same-origin,,block,warning,36,6,"cspTest(388, 205, ""sandbox allow-scripts"", true, {})",t
+389,XMLHttpRequest from child iframe on https://browseraudit.com to https://test.browseraudit.com with sandbox allow-same-origin,,block,warning,36,7,"cspTest(389, 206, ""sandbox allow-same-origin allow-scripts"", true, {})",t
+390,XMLHttpRequest from child iframe on https://browseraudit.com to https://test.browseraudit.com without sandbox allow-same-origin,,block,warning,36,8,"cspTest(390, 207, ""sandbox allow-scripts"", true, {})",t
+396,Script execution via <script> element without sandbox allow-scripts,,block,warning,36,14,"cspTest(396, 221, ""sandbox"", true, {})",t
+110,"Method PUT with Access-Control-Allow-Methods: DELETE, PUT",,allow,warning,22,2,"methodExpect(110, ""PUT"", ""DELETE, PUT"", false)",t
+114,Method DELETE with Access-Control-Allow-Methods: DELETE,,allow,warning,22,6,"methodExpect(114, ""DELETE"", ""DELETE"", false)",t
+119,Method OPTIONS with Access-Control-Allow-Methods: OPTIONS,,allow,warning,22,11,"methodExpect(119, ""OPTIONS"", ""OPTIONS"", false)",t
+120,"Method OPTIONS with Access-Control-Allow-Methods: CONNECT, OPTIONS",,allow,warning,22,12,"methodExpect(120, ""OPTIONS"", ""CONNECT, OPTIONS"")",t
+143,Caller can access Pragma with no Access-Control-Expose-Headers header,,allow,warning,24,6,"exposeExpect(143, ""Pragma"", ""none"", false)",t
+145,Caller can access Server with Access-Control-Expose-Headers: Server,,allow,warning,24,8,"exposeExpect(145, ""Server"", ""Server"", false)",t
+108,request to https://test.browseraudit.com with Access-Control-Allow-Origin: https://browseraudit.org,,block,warning,21,5,"originExpect(108, 2, true)",t
+43,"parent: document.domain = ""browseraudit.com"", child: document.domain not set",,block,critical,5,3,"parentChildSopTest(43, true, false, 1, 0, 0, ""none"")",t
+194,stylesheet @import from file from https://browseraudit.com with style-src 'self',,allow,warning,12,10,"cspTest(194, 36, ""default-src 'none'; style-src 'self'"", false, {})",t
+196,stylesheet from https://test.browseraudit.com with default-src 'none',,block,warning,12,12,"cspTest(196, 23, ""default-src 'none'"", true, {})",t
+179,browser should not send further requests over plain (non-secure) HTTP,,block,warning,32,1,"hstsTest(179, ""max-age=2"", 0, 4, ""https"", {})",t
+182,should be ignored if sent over plain HTTP,,allow,warning,32,4,"hstsTest(182, ""max-age=2"", 4, 4, ""http"", {})",t
+197,stylesheet from https://test.browseraudit.com with default-src 'self,,block,warning,12,13,"cspTest(197, 66, ""default-src 'self'"", true, {})",t
+198,stylesheet from https://test.browseraudit.com with style-src https://test.browseraudit.com,,allow,warning,12,14,"cspTest(198, 24, ""default-src 'none'; style-src {1}"", false, {})",t
+357,XMLHttpRequest.open() to https://test.browseraudit.com with default-src 'self',,block,warning,35,7,"cspTest(357, 174, ""default-src 'self'; script-src 'unsafe-inline'"", true, {})",t
+361,WebSocket connecting to wss://browseraudit.com with default-src 'self',300,block,warning,35,11,"cspTest(361, 178, ""default-src 'self'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+58,https://test.browseraudit.com to https://test.browseraudit.com (allowed),,allow,critical,7,2,"ajaxSopTest(58, false, 1, 1)",t
+62,https://test.browseraudit.com to https://browseraudit.com (host mismatch),,block,critical,7,6,"ajaxSopTest(62, true, 1, 0)",t
+64,https://browseraudit.org to https://browseraudit.com (host mismatch),,block,critical,7,8,"ajaxSopTest(64, true, 2, 0)",t
+67,https://test.browseraudit.com to https://browseraudit.org (host mismatch),,block,critical,7,11,"ajaxSopTest(67, true, 1, 2)",t
+319,@font-face from https://browseraudit.com in stylesheet included via <link> with default-src 'self',300,allow,warning,33,9,"cspTest(319, 136, ""default-src 'self'; style-src 'self' 'unsafe-inline'"", false, { timeout: 300 })",t
+321,@font-face from https://browseraudit.com in stylesheet included via <link> with font-src 'self',300,allow,warning,33,11,"cspTest(321, 138, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'self'"", false, { timeout: 300 })",t
+332,@font-face from https://test.browseraudit.com in inline stylesheet with font-src 'self',300,block,warning,33,22,"cspTest(332, 149, ""default-src 'none'; style-src 'unsafe-inline'; font-src 'self'"", true, { timeout: 300 })",t
+210,script from https://browseraudit.com with script-src 'none',,block,warning,13,4,"cspTest(210, 41, ""default-src 'self'; script-src 'none'"", true, {})",t
+212,script from https://test.browseraudit.com with default-src 'none',,block,warning,13,6,"cspTest(212, 43, ""default-src 'none'"", true, {})",t
+215,script from https://test.browseraudit.com with script-src 'none',,block,warning,13,9,"cspTest(215, 45, ""default-src {1}; script-src 'none'"", true, {})",t
+216,script from https://test.browseraudit.com with script-src 'self',,block,warning,13,10,"cspTest(216, 71, ""default-src 'none'; script-src 'self'"", true, {})",t
+86,cookie for .browseraudit.com set by browseraudit.com is sent to test.browseraudit.com,,allow,critical,8,2,"domainScopeCookieTest(86, false, 0, 0, 1)",t
+70,https://test.browseraudit.org to https://test.browseraudit.com (host mismatch),,block,critical,7,14,"ajaxSopTest(70, true, 3, 1)",t
+88,cookie for .browseraudit.com set by test.browseraudit.com is sent to test.browseraudit.com,,allow,critical,8,4,"domainScopeCookieTest(88, false, 1, 0, 1)",t
+91,cookie for .browseraudit.org set by browseraudit.org is not sent to browseraudit.com,,block,critical,8,7,"domainScopeCookieTest(91, true, 2, 2, 0)",t
+99,cookie for .com set by test.browseraudit.com is not sent to test.browseraudit.com (illegal parameter),,block,critical,9,3,"domainScopeCookieTest(99, true, 1, "".com"", 1)",t
+246,object from https://test.browseraudit.com with default-src 'none',300,block,warning,16,6,"cspTest(246, 61, ""default-src 'none'"", true, { timeout: 300 })",t
+247,object from https://test.browseraudit.com with default-src 'self',300,block,warning,16,7,"cspTest(247, 64, ""default-src 'self'"", true, { timeout: 300 })",t
+250,object from https://test.browseraudit.com with object-src 'self',300,block,warning,16,10,"cspTest(250, 65, ""default-src 'none'; object-src 'self'"", true, { timeout: 300 })",t
+272,audio from https://browseraudit.com with default-src 'none',,block,warning,18,2,"cspTest(272, 89, ""default-src 'none'"", true, {})",t
+317,@font-face from https://browseraudit.com in @import in inline stylesheet with font-src 'self',300,allow,warning,33,7,"cspTest(317, 134, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'self'"", false, { timeout: 300 })",t
+323,@font-face from https://browseraudit.com in @import in stylesheet included via <link> with default-src 'self',300,allow,warning,33,13,"cspTest(323, 140, ""default-src 'self'; style-src 'self' 'unsafe-inline'"", false, { timeout: 300 })",t
+327,@font-face from https://test.browseraudit.com in inline stylesheet with default-src https://test.browseraudit.com,300,allow,warning,33,17,"cspTest(327, 144, ""default-src {1}; style-src 'unsafe-inline'"", false, { timeout: 300 })",t
+331,@font-face from https://test.browseraudit.com in inline stylesheet with font-src 'none',300,block,warning,33,21,"cspTest(331, 148, ""default-src {1}; style-src 'unsafe-inline'; font-src 'none'"", true, { timeout: 300 })",t
+339,@font-face from https://test.browseraudit.com in stylesheet included via <link> with default-src https://test.browseraudit.com,300,allow,warning,33,29,"cspTest(339, 156, ""default-src {1}; style-src 'self' 'unsafe-inline'"", false, { timeout: 300 })",t
+342,@font-face from https://test.browseraudit.com in stylesheet included via <link> with font-src https://test.browseraudit.com,300,allow,warning,33,32,"cspTest(342, 159, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src {1}"", false, { timeout: 300 })",t
+364,WebSocket connecting to wss://browseraudit.com with connect-src 'self',300,block,warning,35,14,"cspTest(364, 181, ""default-src 'none'; script-src 'unsafe-inline'; connect-src 'self'"", true, { timeout: 300 })",t
+391,Access from child iframe on https://browseraudit.com to cookie on .browseraudit.com with sandbox allow-same-origin,,allow,warning,36,9,"cspTest(391, 208, ""sandbox allow-same-origin allow-scripts"", false, {})",t
+392,Access from child iframe on https://browseraudit.com to cookie on .browseraudit.com without sandbox allow-same-origin,,block,warning,36,10,"cspTest(392, 209, ""sandbox allow-scripts"", true, {})",t
+402,Submission of form via POST without sandbox allow-forms,300,block,warning,36,20,"cspTest(402, 227, ""sandbox allow-scripts"", true, { timeout: 300 })",t
+111,Method PUT with Access-Control-Allow-Methods: DELETE,,block,warning,22,3,"methodExpect(111, ""PUT"", ""DELETE"", true)",t
+116,Method DELETE with Access-Control-Allow-Methods: TRACE,,block,warning,22,8,"methodExpect(116, ""DELETE"", ""TRACE"", true)",t
+117,"Method DELETE with Access-Control-Allow-Methods: TRACE, OPTIONS",,block,warning,22,9,"methodExpect(117, ""DELETE"", ""TRACE, OPTIONS"", true)",t
+123,Method OPTIONS with no Access-Control-Allow-Methods header,,block,warning,22,15,"methodExpect(123, ""OPTIONS"", ""none"", true)",t
+128,"Request with custom header X-My-Header with Access-Control-Allow-Headers: X-Another-Header, X-Yet-Another-Header",,block,warning,23,5,"headersExpect(128, {""X-My-Header"": ""foo""}, ""X-Another-Header, X-Yet-Another-Header"", true)",t
+133,"Request with custom headers X-My-Header and X-Another-Header with Access-Control-Allow-Headers: X-My-Header, X-Yet-Another-Header",,block,warning,23,10,"headersExpect(133, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""X-My-Header, X-Yet-Another-Header"", true)",t
+142,Caller can access Last-Modified with no Access-Control-Expose-Headers header,,allow,warning,24,5,"exposeExpect(142, ""Last-Modified"", ""none"", false)",t
+146,"Caller can access Server with Access-Control-Expose-Headers: Content-Length, Server",,allow,warning,24,9,"exposeExpect(146, ""Server"", ""Content-Length, Server"", false)",t
+161,"Caller can access Date with Access-Control-Expose-Headers: Server, Date",,allow,warning,24,24,"exposeExpect(161, ""Date"", ""Server, Date"", false)",t
+163,"Caller can't access Date with Access-Control-Expose-Headers: Content-Length, Server",,block,warning,24,26,"exposeExpect(163, ""Date"", ""Content-Length, Server"", true)",t
+167,cookie set by server should be sent over HTTPS,,allow,critical,27,1,cookiesSecureServerToScriptHTTPS(167),t
+184,should not be sent over non-secure request if the referring page was transferred with a secure protocol,,block,warning,29,1,requestRefererHTTPSToHTTP(184),t
+404,Child iframe changing location of parent iframe without sandbox allow-top-navigation,,block,warning,36,22,"cspTest(404, 229, ""sandbox allow-same-origin allow-scripts"", true, {})",f
+61,https://browseraudit.com to https://test.browseraudit.com (host mismatch),,block,critical,7,5,"ajaxSopTest(61, true, 0, 1)",t
+63,https://browseraudit.com to https://browseraudit.org (host mismatch),,block,critical,7,7,"ajaxSopTest(63, true, 0, 2)",t
+65,https://browseraudit.com to https://test.browseraudit.org (host mismatch),,block,critical,7,9,"ajaxSopTest(65, true, 0, 3)",t
+276,audio from https://test.browseraudit.com with default-src 'none',,block,warning,18,6,"cspTest(276, 93, ""default-src 'none'"", true, {})",t
+102,cookie with path /sop/path/ should be sent to /sop/path/save_cookie/*,,allow,critical,10,1,"cookiePathScope(102, false, ""soppathscope1"")",t
+367,WebSocket connecting to wss://test.browseraudit.com with default-src 'self',300,block,warning,35,17,"cspTest(367, 184, ""default-src 'self'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+395,Script execution via <script> element with sandbox allow-scripts,,allow,warning,36,13,"cspTest(395, 220, ""sandbox allow-scripts"", false, {})",t
+112,"Method PUT with Access-Control-Allow-Methods: DELETE, TRACE",,block,warning,22,4,"methodExpect(112, ""PUT"", ""DELETE, TRACE"", true)",t
+113,Method PUT with no Access-Control-Allow-Methods header,,block,warning,22,5,"methodExpect(113, ""PUT"", ""none"", true)",t
+118,Method DELETE with no Access-Control-Allow-Methods header,,block,warning,22,10,"methodExpect(118, ""DELETE"", ""none"", true)",t
+277,audio from https://test.browseraudit.com with default-src 'self',,block,warning,18,7,"cspTest(277, 94, ""default-src 'self'"", true, {})",t
+280,audio from https://test.browseraudit.com with media-src 'self',,block,warning,18,10,"cspTest(280, 97, ""default-src 'none'; media-src 'self'"", true, {})",t
+282,video from https://browseraudit.com with default-src 'none',,block,warning,18,12,"cspTest(282, 99, ""default-src 'none'"", true, {})",t
+89,cookie for .test.browseraudit.com is sent to test.browseraudit.com,,allow,critical,8,5,"domainScopeCookieTest(89, true, 1, 1, 0)",t
+92,cookie for .browseraudit.org set by browseraudit.org is not sent to test.browseraudit.com,,block,critical,8,8,"domainScopeCookieTest(92, true, 2, 2, 1)",t
+286,video from https://test.browseraudit.com with default-src 'none',,block,warning,18,16,"cspTest(286, 103, ""default-src 'none'"", true, {})",t
+287,video from https://test.browseraudit.com with default-src 'self',,block,warning,18,17,"cspTest(287, 104, ""default-src 'self'"", true, {})",t
+175,frame from remote origin with DENY,,block,warning,31,5,"frameOptionsTest(175, true, 1, ""DENY"")",t
+177,frame from remote origin with ALLOW-FROM test.browseraudit.com,,block,warning,31,7,"frameOptionsTest(177, true, 1, 1)",t
+290,video from https://test.browseraudit.com with media-src 'self',,block,warning,18,20,"cspTest(290, 107, ""default-src 'none'; media-src 'self'"", true, {})",t
+292,iframe from https://browseraudit.com with default-src 'none',,block,warning,19,2,"cspTest(292, 109, ""default-src 'none'"", true, {})",t
+334,@font-face from https://test.browseraudit.com in @import in inline stylesheet with default-src 'none',300,block,warning,33,24,"cspTest(334, 151, ""default-src 'none'; style-src 'self' 'unsafe-inline'"", true, { timeout: 300 })",t
+368,WebSocket connecting to wss://test.browseraudit.com with default-src 'none',300,block,warning,35,18,"cspTest(368, 185, ""default-src 'none'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+371,WebSocket connecting to wss://test.browseraudit.com with connect-src 'none',300,block,warning,35,21,"cspTest(371, 188, ""default-src 'self'; script-src 'unsafe-inline'; connect-src 'none'"", true, { timeout: 300 })",t
+376,EventSource connecting to https://browseraudit.com with connect-src 'none',300,block,warning,35,26,"cspTest(376, 193, ""default-src 'self'; script-src 'unsafe-inline'; connect-src 'none'"", true, { timeout: 300 })",t
+124,Request with custom header X-My-Header with no Access-Control-Allow-Headers header present,,block,warning,23,1,"headersExpect(124, {""X-My-Header"": ""foo""}, ""none"", true)",t
+130,Request with custom headers X-My-Header and X-Another-Header with Access-Control-Allow-Headers: X-My-Header,,block,warning,23,7,"headersExpect(130, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""X-My-Header"", true)",t
+134,"Request with custom headers X-My-Header and X-Another-Header with Access-Control-Allow-Headers: X-Yet-Another-Header, X-Another-Header",,block,warning,23,11,"headersExpect(134, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""X-Yet-Another-Header, X-Another-Header"", true)",t
+135,"Request with custom headers X-My-Header and X-Another-Header with Access-Control-Allow-Headers: X-Yet-Another-Header, X-Custom-Header",,block,warning,23,12,"headersExpect(135, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""X-Yet-Another-Header, X-Custom-Header"", true)",t
+138,Caller can access Cache-Control with no Access-Control-Expose-Headers header,,allow,warning,24,1,"exposeExpect(138, ""Cache-Control"", ""none"", false)",t
+140,Caller can access Content-Type with no Access-Control-Expose-Headers header,,allow,warning,24,3,"exposeExpect(140, ""Content-Type"", ""none"", false)",t
+141,Caller can access Expires with no Access-Control-Expose-Headers header,,allow,warning,24,4,"exposeExpect(141, ""Expires"", ""none"", false)",t
+147,Caller can't access Server with Access-Control-Expose-Headers: Content-Length,,block,warning,24,10,"exposeExpect(147, ""Server"", ""Content-Length"", true)",t
+149,Caller can't access Content-Length with no Access-Control-Expose-Headers header,,block,warning,24,12,"exposeExpect(149, ""Content-Length"", ""none"", true)",t
+152,Caller can't access Content-Length with Access-Control-Expose-Headers: Connection,,block,warning,24,15,"exposeExpect(152, ""Content-Length"", ""Connection"", true)",t
+154,Caller can't access Connection with no Access-Control-Expose-Headers header,,block,warning,24,17,"exposeExpect(154, ""Connection"", ""none"", true)",t
+157,Caller can't access Connection with Access-Control-Expose-Headers: Date,,block,warning,24,20,"exposeExpect(157, ""Connection"", ""Date"", true)",t
+164,HTTP-only cookie set by server and accessed from JavaScript,,block,critical,26,1,cookiesHttpOnlyServerToScript(164),t
+165,HTTP-only cookie set by JavaScript (should be discarded),,block,critical,26,2,cookiesHttpOnlyScriptDiscarded(165),t
+166,HTTP-only cookie set by JavaScript (should not be sent to server),,block,critical,26,3,cookiesHttpOnlyScriptToServer(166),t
+59,https://browseraudit.com to http://browseraudit.com (scheme mismatch),,block,critical,7,3,"ajaxSopTest(59, true, 0, 4)",t
+353,XMLHttpRequest.open() to https://browseraudit.com with connect-src 'self',,allow,warning,35,3,"cspTest(353, 170, ""default-src 'none'; script-src 'unsafe-inline'; connect-src 'self'"", false, {})",t
+369,WebSocket connecting to wss://test.browseraudit.com with default-src wss://test.browseraudit.com,300,allow,warning,35,19,"cspTest(369, 186, ""default-src {5}; script-src 'unsafe-inline'"", false, { timeout: 300 })",t
+378,EventSource connecting to https://test.browseraudit.com with default-src 'none',300,block,warning,35,28,"cspTest(378, 195, ""default-src 'none'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+363,WebSocket connecting to wss://browseraudit.com with default-src wss://browseraudit.com,300,allow,warning,35,13,"cspTest(363, 180, ""default-src {4}; script-src 'unsafe-inline'"", false, { timeout: 300 })",t
+171,frame from same origin with DENY,,block,warning,31,1,"frameOptionsTest(171, true, 0, ""DENY"")",t
+300,iframe from https://test.browseraudit.com with frame-src 'self',,block,warning,19,10,"cspTest(300, 117, ""default-src 'none'; frame-src 'self'"", true, {})",t
+302,frame from https://browseraudit.com with default-src 'none',,block,warning,19,12,"cspTest(302, 119, ""default-src 'none'"", true, {})",t
+27,"parent: document.domain = ""browseraudit.com"", child: document.domain not set",,block,critical,3,3,"parentChildSopTest(27, true, false, 0, 0, 1, ""none"")",t
+29,"parent: document.domain = ""test.browseraudit.com"", child: document.domain = ""test.browseraudit.com""",,block,critical,3,5,"parentChildSopTest(29, true, false, 0, 1, 1, 1)",t
+30,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""browseraudit.com""",,allow,critical,3,6,"parentChildSopTest(30, false, false, 0, 0, 1, 0)",f
+31,"parent: document.domain = ""test.browseraudit.com"", child: document.domain = ""browseraudit.com""",,allow,critical,3,7,"parentChildSopTest(31, true, false, 0, 1, 1, 0)",f
+39,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""browseraudit.com""",,allow,critical,4,7,"parentChildSopTest(39, false, true, 0, 0, 1, 0)",f
+40,"parent: document.domain = ""audit.com"", child: document.domain = ""audit.com""",,block,critical,4,8,"parentChildSopTest(40, true, true, 0, ""audit.com"", 1, ""audit.com"")",t
+304,frame from https://browseraudit.com with frame-src 'none',,block,warning,19,14,"cspTest(304, 121, ""default-src 'self'; frame-src 'none'"", true, {})",t
+226,inline <script> with default-src 'none',,block,warning,14,2,"cspTest(226, 4, ""default-src 'none'"", true, {})",t
+41,"parent: document.domain not set, child: document.domain not set",,block,critical,5,1,"parentChildSopTest(41, true, false, 1, ""none"", 0, ""none"")",t
+44,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""test.browseraudit.com""",,block,critical,5,4,"parentChildSopTest(44, true, false, 1, 0, 0, 1)",t
+45,"parent: document.domain = ""test.browseraudit.com"", child: document.domain = ""test.browseraudit.com""",,block,critical,5,5,"parentChildSopTest(45, true, false, 1, 1, 0, 1)",t
+48,"parent: document.domain = ""audit.com"", child: document.domain = ""audit.com""",,block,critical,5,8,"parentChildSopTest(48, true, false, 1, ""audit.com"", 0, ""audit.com"")",t
+50,"parent: document.domain not set, child: document.domain = ""browseraudit.com""",,block,critical,6,2,"parentChildSopTest(50, true, true, 1, ""none"", 0, 0)",t
+55,"parent: document.domain = ""test.browseraudit.com"", child: document.domain = ""browseraudit.com""",,allow,critical,6,7,"parentChildSopTest(55, true, true, 1, 1, 0, 0)",f
+230,inline <style> with default-src 'none',,block,warning,14,6,"cspTest(230, 8, ""default-src 'none'"", true, {})",t
+232,inline style attribute with default-src 'none',,block,warning,14,8,"cspTest(232, 10, ""default-src 'none'"", true, {})",t
+236,eval()  without 'unsafe-eval',,block,warning,15,4,"cspTest(236, 14, ""default-src 'unsafe-inline'"", true, {})",t
+257,embed from https://test.browseraudit.com with default-src 'self',300,block,warning,16,17,"cspTest(257, 74, ""default-src 'self'"", true, { timeout: 300 })",t
+85,cookie for .browseraudit.com set by browseraudit.com is sent to browseraudit.com,,allow,critical,8,1,"domainScopeCookieTest(85, false, 0, 0, 0)",t
+87,cookie for .browseraudit.com set by test.browseraudit.com is sent to browseraudit.com,,allow,critical,8,3,"domainScopeCookieTest(87, false, 1, 0, 0)",t
+380,EventSource connecting to https://test.browseraudit.com with connect-src https://test.browseraudit.com,300,allow,warning,35,30,"cspTest(380, 197, ""default-src 'none'; script-src 'unsafe-inline'; connect-src {1}"", false, { timeout: 300 })",t
+382,EventSource connecting to https://test.browseraudit.com with connect-src 'self',300,block,warning,35,32,"cspTest(382, 199, ""default-src 'none'; script-src 'unsafe-inline'; connect-src 'self'"", true, { timeout: 300 })",t
+351,XMLHttpRequest.open() to https://browseraudit.com with default-src 'self',,allow,warning,35,1,"cspTest(351, 168, ""default-src 'self'; script-src 'unsafe-inline'"", false, {})",t
+90,cookie for .test.browseraudit.com is not sent to browseraudit.com,,block,critical,8,6,"domainScopeCookieTest(90, true, 1, 1, 0)",t
+259,embed from https://test.browseraudit.com with object-src 'none',300,block,warning,16,19,"cspTest(259, 76, ""default-src {1}; object-src 'none'"", true, { timeout: 300 })",t
+266,image from https://test.browseraudit.com with default-src 'none',,block,warning,17,6,"cspTest(266, 83, ""default-src 'none'"", true, {})",t
+296,iframe from https://test.browseraudit.com with default-src 'none',,block,warning,19,6,"cspTest(296, 113, ""default-src 'none'"", true, {})",t
+190,stylesheet @import from https://browseraudit.com with default-src 'none',,block,warning,12,6,"cspTest(190, 31, ""default-src 'unsafe-inline'"", true, {})",t
+192,stylesheet @import from https://browseraudit.com with style-src 'none',,block,warning,12,8,"cspTest(192, 33, ""default-src 'none'; style-src 'unsafe-inline'"", true, {})",t
+195,stylesheet from https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,12,11,"cspTest(195, 22, ""default-src {1}"", false, {})",t
+221,SharedWorker from https://browseraudit.com with default-src 'self',300,allow,warning,13,15,"cspTest(221, 50, ""default-src 'unsafe-inline' 'self'"", false, { timeout: 300 })",t
+225,inline <script> with default-src 'unsafe-inline',,allow,warning,14,1,"cspTest(225, 3, ""default-src 'unsafe-inline'"", false, {})",t
+227,inline event handler with default-src 'unsafe-inline',300,allow,warning,14,3,"cspTest(227, 5, ""default-src 'unsafe-inline'"", false, { timeout: 300 })",t
+231,inline style attribute with default-src 'unsafe-inline',,allow,warning,14,7,"cspTest(231, 9, ""default-src 'self' 'unsafe-inline'"", false, {})",t
+354,XMLHttpRequest.open() to https://browseraudit.com with connect-src 'none',,block,warning,35,4,"cspTest(354, 171, ""default-src 'self'; script-src 'unsafe-inline'; connect-src 'none'"", true, {})",t
+355,XMLHttpRequest.open() to https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,35,5,"cspTest(355, 172, ""default-src {1}; script-src 'unsafe-inline'"", false, {})",t
+358,XMLHttpRequest.open() to https://test.browseraudit.com with connect-src https://test.browseraudit.com,,allow,warning,35,8,"cspTest(358, 175, ""default-src 'none'; script-src 'unsafe-inline'; connect-src {1}"", false, {})",t
+359,XMLHttpRequest.open() to https://test.browseraudit.com with connect-src 'none',,block,warning,35,9,"cspTest(359, 176, ""connect-src 'self'; script-src 'unsafe-inline'; connect-src 'none'"", true, {})",t
+312,@font-face from https://browseraudit.com in inline stylesheet with default-src 'none',300,block,warning,33,2,"cspTest(312, 129, ""default-src 'none'; style-src 'unsafe-inline'"", true, { timeout: 300 })",t
+315,@font-face from https://browseraudit.com in @import in inline stylesheet with default-src 'self',300,allow,warning,33,5,"cspTest(315, 132, ""default-src 'self'; style-src 'self' 'unsafe-inline'"", false, { timeout: 300 })",t
+237,setTimeout() with default-src 'unsafe-eval',300,allow,warning,15,5,"cspTest(237, 15, ""default-src 'unsafe-inline' 'unsafe-eval'"", false, { timeout: 300 })",t
+318,@font-face from https://browseraudit.com in @import in inline stylesheet with font-src 'none',300,block,warning,33,8,"cspTest(318, 135, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'none'"", true, { timeout: 300 })",t
+324,@font-face from https://browseraudit.com in @import in stylesheet included via <link> with default-src 'none',300,block,warning,33,14,"cspTest(324, 141, ""default-src 'none'; style-src 'self' 'unsafe-inline'"", true, { timeout: 300 })",t
+325,@font-face from https://browseraudit.com in @import in stylesheet included via <link> with font-src 'self',300,allow,warning,33,15,"cspTest(325, 142, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src 'self'"", false, { timeout: 300 })",t
+330,@font-face from https://test.browseraudit.com in inline stylesheet with font-src https://test.browseraudit.com,300,allow,warning,33,20,"cspTest(330, 147, ""default-src 'none'; style-src 'unsafe-inline'; font-src {1}"", false, { timeout: 300 })",t
+335,@font-face from https://test.browseraudit.com in @import in inline stylesheet with default-src 'self',300,block,warning,33,25,"cspTest(335, 152, ""default-src 'self'; style-src 'self' 'unsafe-inline'"", true, { timeout: 300 })",t
+336,@font-face from https://test.browseraudit.com in @import in inline stylesheet with font-src https://test.browseraudit.com,300,allow,warning,33,26,"cspTest(336, 153, ""default-src 'none'; style-src 'self' 'unsafe-inline'; font-src {1}"", false, { timeout: 300 })",t
+340,@font-face from https://test.browseraudit.com in stylesheet included via <link> with default-src 'none',300,block,warning,33,30,"cspTest(340, 157, ""default-src 'none'; style-src 'self'  'unsafe-inline'"", true, { timeout: 300 })",t
+362,WebSocket connecting to wss://browseraudit.com with default-src 'none',300,block,warning,35,12,"cspTest(362, 179, ""default-src 'none'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+384,DOM access from child iframe on https://browseraudit.com to parent iframe on https://browseraudit.com without sandbox allow-same-origin,,block,warning,36,2,"cspTest(384, 201, ""sandbox allow-scripts"", true, {})",t
+386,DOM access from child iframe on https://test.browseraudit.com to parent iframe on https://browseraudit.com without sandbox allow-same-origin,,block,warning,36,4,"cspTest(386, 203, ""sandbox allow-scripts"", true, {})",t
+393,Access from child iframe on https://test.browseraudit.com to cookie on .browseraudit.com with sandbox allow-same-origin,,allow,warning,36,11,"cspTest(393, 210, ""sandbox allow-same-origin allow-scripts"", false, {})",t
+394,Access from child iframe on https://test.browseraudit.com to cookie on .browseraudit.com without sandbox allow-same-origin,,block,warning,36,12,"cspTest(394, 211, ""sandbox allow-scripts"", true, {})",t
+397,Script execution via onload event with sandbox allow-scripts,300,allow,warning,36,15,"cspTest(397, 222, ""sandbox allow-scripts"", false, { timeout: 300 })",t
+401,Submission of form via POST with sandbox allow-forms,300,allow,warning,36,19,"cspTest(401, 226, ""sandbox allow-scripts allow-forms"", false, { timeout: 300 })",t
+115,"Method DELETE with Access-Control-Allow-Methods: TRACE, DELETE",,allow,warning,22,7,"methodExpect(115, ""DELETE"", ""TRACE, DELETE"")",t
+122,"Method OPTIONS with Access-Control-Allow-Methods: CONNECT, PATCH",,block,warning,22,14,"methodExpect(122, ""OPTIONS"", ""CONNECT, PATCH"", true)",t
+125,Request with custom header X-My-Header with Access-Control-Allow-Headers: X-My-Header,,allow,warning,23,2,"headersExpect(125, {""X-My-Header"": ""foo""}, ""X-My-Header"", false)",t
+126,Request with custom header X-My-Header with Access-Control-Allow-Headers: X-Another-Header,,block,warning,23,3,"headersExpect(126, {""X-My-Header"": ""foo""}, ""X-Another-Header"", true)",t
+129,Request with custom headers X-My-Header and X-Another-Header with no Access-Control-Allow-Headers header present,,block,warning,23,6,"headersExpect(129, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""none"", true)",t
+131,Request with custom headers X-My-Header and X-Another-Header with Access-Control-Allow-Headers: X-Another-Header,,block,warning,23,8,"headersExpect(131, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""X-Another-Header"", true)",t
+132,Request with custom headers X-My-Header and X-Another-Header with Access-Control-Allow-Headers: X-Yet-Another-Header,,block,warning,23,9,"headersExpect(132, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""X-Yet-Another-Header"", true)",t
+136,"Request with custom headers X-My-Header and X-Another-Header with Access-Control-Allow-Headers: X-My-Header, X-Another-Header",,allow,warning,23,13,"headersExpect(136, {""X-My-Header"": ""foo"", ""X-Another-Header"": ""bar""}, ""X-My-Header, X-Another-Header"", false)",t
+139,Caller can access Content-Language with no Access-Control-Expose-Headers header,,allow,warning,24,2,"exposeExpect(139, ""Content-Language"", ""none"", false)",t
+144,Caller can't access Server with no Access-Control-Expose-Headers header,,block,warning,24,7,"exposeExpect(144, ""Server"", ""none"", true)",t
+148,"Caller can't access Server with Access-Control-Expose-Headers: Content-Length, Connection",,block,warning,24,11,"exposeExpect(148, ""Server"", ""Content-Length, Connection"", true)",t
+151,"Caller can access Content-Length with Access-Control-Expose-Headers: Connection, Content-Length",,allow,warning,24,14,"exposeExpect(151, ""Content-Length"", ""Connection, Content-Length"", false)",t
+153,"Caller can't access Content-Length with Access-Control-Expose-Headers: Date, Connection",,block,warning,24,16,"exposeExpect(153, ""Content-Length"", ""Date, Connection"", true)",t
+156,"Caller can access Connection with Access-Control-Expose-Headers: Date, Connection",,allow,warning,24,19,"exposeExpect(156, ""Connection"", ""Date, Connection"", false)",t
+407,stylesheet from https://browseraudit.com with default-src 'self',,allow,warning,37,1,"cspTest(407, 214, ""sandbox allow-same-origin allow-scripts"", false, {})",f
+75,https://browseraudit.com to http://browseraudit.org (scheme and host mismatch),,block,critical,7,20,"ajaxSopTest(75, true, 0, 6)",t
+173,frame from same origin with ALLOW-FROM browseraudit.com,,allow,warning,31,3,"frameOptionsTest(173, false, 0, 0)",t
+174,frame from same origin with ALLOW-FROM test.browseraudit.com,,block,warning,31,4,"frameOptionsTest(174, true, 0, 1)",t
+178,frame from remote origin with ALLOW-FROM browseraudit.com,,allow,warning,31,8,"frameOptionsTest(178, false, 1, 0)",t
+180,HSTS policy should not apply to subdomains when includeSubDomains is omitted,,allow,warning,32,2,"hstsTest(180, ""max-age=2"", 0, 5, ""http"", {})",t
+181,HSTS policy should apply to subdomains when includeSubDomains is included,,block,warning,32,3,"hstsTest(181, ""max-age=5; includeSubDomains"", 0, 5, ""https"", {})",t
+183,should expire after max-age,3000,block,warning,32,5,"hstsTest(183, ""max-age=2"", 0, 4, ""http"", { setProtocolDelay: 3000, hstsPeriod: 2000 })",t
+238,setTimeout() without 'unsafe-eval',300,block,warning,15,6,"cspTest(238, 16, ""default-src 'unsafe-inline'"", true, { timeout: 300 })",t
+241,object from https://browseraudit.com with default-src 'self',300,allow,warning,16,1,"cspTest(241, 35, ""default-src 'self'"", false, { timeout: 300 })",t
+248,object from https://test.browseraudit.com with object-src https://test.browseraudit.com,300,allow,warning,16,8,"cspTest(248, 62, ""default-src 'none'; object-src {1}"", false, { timeout: 300 })",t
+262,image from https://browseraudit.com with default-src 'none',,block,warning,17,2,"cspTest(262, 79, ""default-src 'none'"", true, {})",t
+265,image from https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,17,5,"cspTest(265, 82, ""default-src {1}"", false, {})",t
+271,audio from https://browseraudit.com with default-src 'self',,allow,warning,18,1,"cspTest(271, 88, ""default-src 'self'"", false, {})",t
+73,https://browseraudit.com to http://test.browseraudit.com (scheme and host mismatch),,block,critical,7,18,"ajaxSopTest(73, true, 0, 5)",t
+76,https://browseraudit.org to http://browseraudit.com (scheme and host mismatch),,block,critical,7,21,"ajaxSopTest(76, true, 2, 4)",t
+78,https://test.browseraudit.org to http://browseraudit.com (scheme and host mismatch),,block,critical,7,23,"ajaxSopTest(78, true, 3, 4)",t
+80,https://browseraudit.org to http://test.browseraudit.com (scheme and host mismatch),,block,critical,7,25,"ajaxSopTest(80, true, 2, 5)",t
+82,https://test.browseraudit.org to http://test.browseraudit.com (scheme and host mismatch),,block,critical,7,27,"ajaxSopTest(82, true, 3, 5)",t
+81,https://test.browseraudit.com to http://test.browseraudit.org (scheme and host mismatch),,block,critical,7,26,"ajaxSopTest(81, true, 1, 7)",t
+83,https://browseraudit.org to http://test.browseraudit.org (scheme and host mismatch),,block,critical,7,28,"ajaxSopTest(83, true, 2, 7)",t
+306,frame from https://test.browseraudit.com with default-src 'none',,block,warning,19,16,"cspTest(306, 123, ""default-src 'none'"", true, {})",t
+218,Worker from https://browseraudit.com with default-src 'none',300,block,warning,13,12,"cspTest(218, 47, ""default-src 'unsafe-inline'"", true, { timeout: 300 })",t
+253,embed from https://browseraudit.com with object-src 'self',300,allow,warning,16,13,"cspTest(253, 58, ""default-src 'none'; object-src 'self'"", false, { timeout: 300 })",t
+261,image from https://browseraudit.com with default-src 'self',,allow,warning,17,1,"cspTest(261, 78, ""default-src 'self'"", false, {})",t
+275,audio from https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,18,5,"cspTest(275, 92, ""default-src {1}"", false, {})",t
+281,video from https://browseraudit.com with default-src 'self',,allow,warning,18,11,"cspTest(281, 98, ""default-src 'self'"", false, {})",t
+283,video from https://browseraudit.com with media-src 'self',,allow,warning,18,13,"cspTest(283, 100, ""default-src 'none'; media-src 'self'"", false, {})",t
+285,video from https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,18,15,"cspTest(285, 102, ""default-src {1}"", false, {})",t
+291,iframe from https://browseraudit.com with default-src 'self',,allow,warning,19,1,"cspTest(291, 108, ""default-src 'self'"", false, {})",t
+293,iframe from https://browseraudit.com with frame-src 'self',,allow,warning,19,3,"cspTest(293, 110, ""default-src 'none'; frame-src 'self'"", false, {})",t
+294,iframe from https://browseraudit.com with frame-src 'none',,block,warning,19,4,"cspTest(294, 111, ""default-src 'self'; frame-src 'none'"", true, {})",t
+298,iframe from https://test.browseraudit.com with frame-src https://test.browseraudit.com,,allow,warning,19,8,"cspTest(298, 115, ""default-src 'none'; frame-src {1}"", false, {})",t
+301,frame from https://browseraudit.com with default-src 'self',,allow,warning,19,11,"cspTest(301, 118, ""default-src 'self'"", false, {})",t
+305,frame from https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,19,15,"cspTest(305, 122, ""default-src {1}"", false, {})",t
+200,stylesheet from https://test.browseraudit.com with style-src 'self',,block,warning,12,16,"cspTest(200, 67, ""default-src 'none'; style-src 'self'"", true, {})",t
+201,stylesheet @import from https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,12,17,"cspTest(201, 26, ""default-src 'unsafe-inline' {1}"", false, {})",t
+202,stylesheet @import from https://test.browseraudit.com with default-src 'none',,block,warning,12,18,"cspTest(202, 27, ""default-src 'unsafe-inline'"", true, {})",t
+203,stylesheet @import from https://test.browseraudit.com with default-src 'self',,block,warning,12,19,"cspTest(203, 68, ""default-src 'self' 'unsafe-inline'"", true, {})",t
+189,stylesheet @import from https://browseraudit.com with default-src 'self',,allow,warning,12,5,"cspTest(189, 30, ""default-src 'unsafe-inline' 'self'"", false, {})",t
+204,stylesheet @import from https://test.browseraudit.com with style-src https://test.browseraudit.com,,allow,warning,12,20,"cspTest(204, 28, ""default-src 'none'; style-src 'unsafe-inline' {1}"", false, {})",t
+205,stylesheet @import from https://test.browseraudit.com with style-src 'none',,block,warning,12,21,"cspTest(205, 29, ""default-src none'; style-src 'unsafe-inline'"", true, {})",t
+366,WebSocket connecting to wss://browseraudit.com with connect-src wss://browseraudit.com,300,allow,warning,35,16,"cspTest(366, 183, ""default-src 'none'; script-src 'unsafe-inline'; connect-src {4}"", false, { timeout: 300 })",t
+372,WebSocket connecting to wss://test.browseraudit.com with connect-src wss://test.browseraudit.com,300,allow,warning,35,22,"cspTest(372, 189, ""default-src 'none'; script-src 'unsafe-inline'; connect-src {5}"", false, { timeout: 300 })",t
+208,script from https://browseraudit.com with default-src 'none',,block,warning,13,2,"cspTest(208, 39, ""default-src 'none'"", true, {})",t
+217,Worker from https://browseraudit.com with default-src 'self',300,allow,warning,13,11,"cspTest(217, 46, ""default-src 'unsafe-inline' 'self'"", false, { timeout: 300 })",t
+235,eval() with default-src 'unsafe-eval',,allow,warning,15,3,"cspTest(235, 13, ""default-src 'unsafe-inline' 'unsafe-eval'"", false, {})",t
+242,object from https://browseraudit.com with default-src 'none',300,block,warning,16,2,"cspTest(242, 37, ""default-src 'none'"", true, { timeout: 300 })",t
+251,embed from https://browseraudit.com with default-src 'self',300,allow,warning,16,11,"cspTest(251, 56, ""default-src 'self'"", false, { timeout: 300 })",t
+222,SharedWorker from https://browseraudit.com with default-src 'none',300,block,warning,13,16,"cspTest(222, 51, ""default-src 'unsafe-inline'"", true, { timeout: 300 })",t
+199,stylesheet from https://test.browseraudit.com with style-src 'none',,block,warning,12,15,"cspTest(199, 25, ""default-src {1}; style-src 'none'"", true, {})",t
+206,stylesheet @import from https://test.browseraudit.com with style-src 'self',,block,warning,12,22,"cspTest(206, 69, ""default-src none'; style-src 'self' 'unsafe-inline'"", true, {})",t
+211,script from https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,13,5,"cspTest(211, 42, ""default-src {1}"", false, {})",t
+213,script from https://test.browseraudit.com with default-src 'self',,block,warning,13,7,"cspTest(213, 70, ""default-src 'none'"", true, {})",t
+219,Worker from https://browseraudit.com with script-src 'self',300,allow,warning,13,13,"cspTest(219, 48, ""default-src 'none'; script-src 'unsafe-inline' 'self'"", false, { timeout: 300 })",t
+220,Worker from https://browseraudit.com with script-src 'none',300,block,warning,13,14,"cspTest(220, 49, ""default-src 'self'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+223,SharedWorker from https://browseraudit.com with script-src 'self',300,allow,warning,13,17,"cspTest(223, 52, ""default-src 'none'; script-src 'unsafe-inline' 'self'"", false, { timeout: 300 })",t
+224,SharedWorker from https://browseraudit.com with script-src 'none',300,block,warning,13,18,"cspTest(224, 53, ""default-src 'self'; script-src 'unsafe-inline'"", true, { timeout: 300 })",t
+228,inline event handler with default-src 'none',300,block,warning,14,4,"cspTest(228, 6, ""default-src 'none'"", true, { timeout: 300 })",t
+229,inline <style> with default-src 'unsafe-inline',,allow,warning,14,5,"cspTest(229, 7, ""default-src 'self' 'unsafe-inline'"", false, {})",t
+233,Function constructor with default-src 'unsafe-eval',,allow,warning,15,1,"cspTest(233, 11, ""default-src 'unsafe-inline' 'unsafe-eval'"", false, {})",t
+1,child https://browseraudit.com accessing parent https://browseraudit.org,,block,critical,2,1,"parentChildSopTest(1, true, false, 2, ""none"", 0, ""none"")",t
+234,Function constructor without 'unsafe-eval',,block,warning,15,2,"cspTest(234, 12, ""default-src 'unsafe-inline'"", true, {})",t
+239,setInterval() with default-src 'unsafe-eval',1000,allow,warning,15,7,"cspTest(239, 17, ""default-src 'unsafe-inline' 'unsafe-eval'"", false, { timeout: 1000 })",t
+240,setInterval() without 'unsafe-eval',1000,block,warning,15,8,"cspTest(240, 18, ""default-src 'unsafe-inline'"", true, { timeout: 1000 })",t
+243,object from https://browseraudit.com with object-src 'self',300,allow,warning,16,3,"cspTest(243, 54, ""default-src 'none'; object-src 'self'"", false, { timeout: 300 })",t
+244,object from https://browseraudit.com with object-src 'none',300,block,warning,16,4,"cspTest(244, 55, ""default-src 'self'; object-src 'none'"", true, { timeout: 300 })",t
+245,object from https://test.browseraudit.com with default-src https://test.browseraudit.com,300,allow,warning,16,5,"cspTest(245, 60, ""default-src {1}"", false, { timeout: 300 })",t
+249,object from https://test.browseraudit.com with object-src 'none',300,block,warning,16,9,"cspTest(249, 63, ""default-src {1}; object-src 'none'"", true, { timeout: 300 })",t
+252,embed from https://browseraudit.com with default-src 'none',300,block,warning,16,12,"cspTest(252, 57, ""default-src 'none'"", true, { timeout: 300 })",t
+255,embed from https://test.browseraudit.com with default-src https://test.browseraudit.com,300,allow,warning,16,15,"cspTest(255, 72, ""default-src {1}"", false, { timeout: 300 })",t
+256,embed from https://test.browseraudit.com with default-src 'none',300,block,warning,16,16,"cspTest(256, 73, ""default-src 'none'"", true, { timeout: 300 })",t
+258,embed from https://test.browseraudit.com with object-src https://test.browseraudit.com,300,allow,warning,16,18,"cspTest(258, 75, ""default-src 'none'; object-src {1}"", false, { timeout: 300 })",t
+260,embed from https://test.browseraudit.com with object-src 'self',300,block,warning,16,20,"cspTest(260, 77, ""default-src 'none'; object-src 'self'"", true, { timeout: 300 })",t
+5,child https://browseraudit.com accessing parent https://test.browseraudit.com,,block,critical,2,5,"parentChildSopTest(5, true, false, 0, ""none"", 1, ""none"")",t
+9,child https://browseraudit.com accessing parent https://test.browseraudit.org,,block,critical,2,9,"parentChildSopTest(9, true, false, 3, ""none"", 0, ""none"")",t
+12,parent https://test.browseraudit.org accessing child https://browseraudit.com,,block,critical,2,12,"parentChildSopTest(12, true, true, 3, ""none"", 0, ""none"")",t
+14,parent https://browseraudit.org accessing child https://test.browseraudit.com,,block,critical,2,14,"parentChildSopTest(14, true, true, 2, ""none"", 1, ""none"")",t
+3,child https://browseraudit.org accessing parent https://browseraudit.com,,block,critical,2,3,"parentChildSopTest(3, true, false, 0, ""none"", 2, ""none"")",t
+4,parent https://browseraudit.org accessing child https://browseraudit.com,,block,critical,2,4,"parentChildSopTest(4, true, true, 2, ""none"", 0, ""none"")",t
+16,parent https://test.browseraudit.com accessing child https://browseraudit.org,,block,critical,2,16,"parentChildSopTest(16, true, true, 1, ""none"", 2, ""none"")",t
+21,child https://test.browseraudit.com accessing parent https://test.browseraudit.org,,block,critical,2,21,"parentChildSopTest(21, true, false, 3, ""none"", 1, ""none"")",t
+7,child https://test.browseraudit.com accessing parent https://browseraudit.com,,block,critical,2,7,"parentChildSopTest(7, true, false, 0, ""none"", 1, ""none"")",t
+8,parent https://test.browseraudit.com accessing child https://browseraudit.com,,block,critical,2,8,"parentChildSopTest(8, true, true, 1, ""none"", 0, ""none"")",t
+13,child https://browseraudit.org accessing parent https://test.browseraudit.com,,block,critical,2,13,"parentChildSopTest(13, true, false, 1, ""none"", 2, ""none"")",t
+263,image from https://browseraudit.com with img-src 'self',,allow,warning,17,3,"cspTest(263, 80, ""default-src 'none'; img-src 'self'"", false, {})",t
+268,image from https://test.browseraudit.com with img-src https://test.browseraudit.com,,allow,warning,17,8,"cspTest(268, 85, ""default-src 'none'; img-src {1}"", false, {})",t
+269,image from https://test.browseraudit.com with img-src 'none',,block,warning,17,9,"cspTest(269, 86, ""default-src {1}; img-src 'none'"", true, {})",t
+274,audio from https://browseraudit.com with media-src 'none',,block,warning,18,4,"cspTest(274, 91, ""default-src 'self'; media-src 'none'"", true, {})",t
+278,audio from https://test.browseraudit.com with media-src https://test.browseraudit.com,,allow,warning,18,8,"cspTest(278, 95, ""default-src 'none'; media-src {1}"", false, {})",t
+15,child https://test.browseraudit.com accessing parent https://browseraudit.org,,block,critical,2,15,"parentChildSopTest(15, true, false, 2, ""none"", 1, ""none"")",t
+18,parent https://browseraudit.org accessing child https://test.browseraudit.org,,block,critical,2,18,"parentChildSopTest(18, true, true, 2, ""none"", 3, ""none"")",t
+22,parent https://test.browseraudit.com accessing child https://test.browseraudit.org,,block,critical,2,22,"parentChildSopTest(22, true, true, 1, ""none"", 3, ""none"")",t
+2,parent https://browseraudit.com accessing child https://browseraudit.org,,block,critical,2,2,"parentChildSopTest(2, true, true, 0, ""none"", 2, ""none"")",t
+6,parent https://browseraudit.com accessing child https://test.browseraudit.com,,block,critical,2,6,"parentChildSopTest(6, true, true, 0, ""none"", 1, ""none"")",t
+10,parent https://browseraudit.com accessing child https://test.browseraudit.org,,block,critical,2,10,"parentChildSopTest(10, true, true, 0, ""none"", 3, ""none"")",t
+11,child https://test.browseraudit.org accessing parent https://browseraudit.com,,block,critical,2,11,"parentChildSopTest(11, true, false, 0, ""none"", 3, ""none"")",t
+17,child https://browseraudit.org accessing parent https://test.browseraudit.org,,block,critical,2,17,"parentChildSopTest(17, true, false, 3, ""none"", 2, ""none"")",t
+19,child https://test.browseraudit.org accessing parent https://browseraudit.org,,block,critical,2,19,"parentChildSopTest(19, true, false, 2, ""none"", 3, ""none"")",t
+20,parent https://test.browseraudit.org accessing child https://browseraudit.org,,block,critical,2,20,"parentChildSopTest(20, true, true, 3, ""none"", 2, ""none"")",t
+23,child https://test.browseraudit.org accessing parent https://test.browseraudit.com,,block,critical,2,23,"parentChildSopTest(23, true, false, 1, ""none"", 3, ""none"")",t
+24,parent https://test.browseraudit.org accessing child https://test.browseraudit.com,,block,critical,2,24,"parentChildSopTest(24, true, true, 3, ""none"", 1, ""none"")",t
+279,audio from https://test.browseraudit.com with media-src 'none',,block,warning,18,9,"cspTest(279, 96, ""default-src {1}; media-src 'none'"", true, {})",t
+284,video from https://browseraudit.com with media-src 'none',,block,warning,18,14,"cspTest(284, 101, ""default-src 'self'; media-src 'none'"", true, {})",t
+288,video from https://test.browseraudit.com with media-src https://test.browseraudit.com,,allow,warning,18,18,"cspTest(288, 105, ""default-src 'none'; media-src {1}"", false, {})",t
+289,video from https://test.browseraudit.com with media-src 'none',,block,warning,18,19,"cspTest(289, 106, ""default-src {1}; media-src 'none'"", true, {})",t
+47,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""browseraudit.com""",,allow,critical,5,7,"parentChildSopTest(47, false, false, 1, 0, 0, 0)",t
+51,"parent: document.domain = ""browseraudit.com"", child: document.domain not set",,block,critical,6,3,"parentChildSopTest(51, true, true, 1, 0, 0, ""none"")",t
+53,"parent: document.domain = ""test.browseraudit.com"", child: document.domain = ""test.browseraudit.com""",,block,critical,6,5,"parentChildSopTest(53, true, true, 1, 1, 0, 1)",t
+54,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""browseraudit.com""",,allow,critical,6,6,"parentChildSopTest(54, false, true, 1, 0, 0, 0)",f
+295,iframe from https://test.browseraudit.com with default-src https://test.browseraudit.com,,allow,warning,19,5,"cspTest(295, 112, ""default-src {1}"", false, {})",t
+299,iframe from https://test.browseraudit.com with frame-src 'none',,block,warning,19,9,"cspTest(299, 116, ""default-src {1}; frame-src 'none'"", true, {})",t
+33,"parent: document.domain not set, child: document.domain not set",,block,critical,4,1,"parentChildSopTest(33, true, true, 0, ""none"", 1, ""none"")",t
+35,"parent: document.domain = ""browseraudit.com"", child: document.domain not set",,block,critical,4,3,"parentChildSopTest(35, true, true, 0, 0, 1, ""none"")",t
+37,"parent: document.domain = ""test.browseraudit.com"", child: document.domain = ""test.browseraudit.com""",,block,critical,4,5,"parentChildSopTest(37, true, true, 0, 1, 1, 1)",t
+38,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""browseraudit.com""",,allow,critical,4,6,"parentChildSopTest(38, false, true, 0, 0, 1, 0)",f
+36,"parent: document.domain = ""browseraudit.com"", child: document.domain = ""test.browseraudit.com""",,block,critical,4,4,"parentChildSopTest(36, true, true, 0, 0, 1, 1)",t
+303,frame from https://browseraudit.com with frame-src 'self',,allow,warning,19,13,"cspTest(303, 120, ""default-src 'none'; frame-src 'self'"", false, {})",t
+308,frame from https://test.browseraudit.com with frame-src https://test.browseraudit.com,,allow,warning,19,18,"cspTest(308, 125, ""default-src 'none'; frame-src {1}"", false, {})",t
+56,"parent: document.domain = ""audit.com"", child: document.domain = ""audit.com""",,block,critical,6,8,"parentChildSopTest(56, true, true, 1, ""audit.com"", 0, ""audit.com"")",t
+79,https://test.browseraudit.com to http://browseraudit.org (scheme and host mismatch),,block,critical,7,24,"ajaxSopTest(79, true, 1, 6)",t
+411,https://test.browseraudit.org to https://browseraudit.org (host mismatch),,block,critical,7,17,"ajaxSopTest(411, true, 3, 2)",t
+66,https://test.browseraudit.org to https://browseraudit.com (host mismatch),,block,critical,7,10,"ajaxSopTest(66, true, 3, 0)",t
+68,https://browseraudit.org to https://test.browseraudit.com (host mismatch),,block,critical,7,12,"ajaxSopTest(68, true, 2, 1)",t
+74,https://test.browseraudit.com to http://browseraudit.com (scheme and host mismatch),,block,critical,7,19,"ajaxSopTest(74, true, 1, 4)",t
+77,https://browseraudit.com to http://test.browseraudit.org (scheme and host mismatch),,block,critical,7,22,"ajaxSopTest(77, true, 0, 7)",t
+84,https://test.browseraudit.org to http://test.browseraudit.org (scheme and host mismatch),,block,critical,7,29,"ajaxSopTest(84, true, 3, 7)",t

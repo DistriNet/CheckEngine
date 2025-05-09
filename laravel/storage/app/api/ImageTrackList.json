@@ -1,0 +1,194 @@
+{
+  "api": {
+    "ImageTrackList": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/ImageTrackList",
+        "spec_url": "https://w3c.github.io/webcodecs/#imagetracklist-interface",
+        "tags": [
+          "web-features:webcodecs"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "94"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "133"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "length": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/length",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-imagetracklist-length",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "133"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "ready": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/ready",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-imagetracklist-ready",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "133"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "selectedIndex": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/selectedIndex",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-imagetracklist-selectedindex",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "133"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "selectedTrack": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/selectedTrack",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-imagetracklist-selectedtrack",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "133"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

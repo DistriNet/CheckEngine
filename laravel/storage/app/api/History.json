@@ -1,0 +1,480 @@
+{
+  "api": {
+    "History": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/History",
+        "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-history-interface",
+        "tags": [
+          "web-features:history"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "1"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "12"
+          },
+          "firefox": {
+            "version_added": "1"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": "10"
+          },
+          "oculus": "mirror",
+          "opera": {
+            "version_added": "3"
+          },
+          "opera_android": {
+            "version_added": "10.1"
+          },
+          "safari": {
+            "version_added": "1"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "back": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/History/back",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-back-dev",
+          "tags": [
+            "web-features:history"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "forward": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/History/forward",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-forward-dev",
+          "tags": [
+            "web-features:history"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "go": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/History/go",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-go-dev",
+          "tags": [
+            "web-features:history"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "length": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/History/length",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-length-dev",
+          "tags": [
+            "web-features:history"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "pushState": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/History/pushState",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-pushstate-dev",
+          "tags": [
+            "web-features:history"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "5"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "4",
+              "notes": "Until Firefox 5, the passed object is serialized using JSON. Starting in Firefox 6, the object is serialized using [the structured clone algorithm](https://developer.mozilla.org/docs/DOM/The_structured_clone_algorithm). This allows a wider variety of objects to be safely passed."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "11.5"
+            },
+            "opera_android": {
+              "version_added": "11.5"
+            },
+            "safari": {
+              "version_added": "5"
+            },
+            "safari_ios": {
+              "version_added": "4"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "unused_parameter": {
+          "__compat": {
+            "description": "Whether the `unused` parameter is used",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "5",
+                "notes": "This feature may be removed, see [bug 223190](https://webkit.org/b/223190)."
+              },
+              "safari_ios": {
+                "version_added": "4",
+                "notes": "This feature may be removed, see [bug 223190](https://webkit.org/b/223190)."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": false,
+              "deprecated": true
+            }
+          }
+        }
+      },
+      "replaceState": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/History/replaceState",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-replacestate-dev",
+          "tags": [
+            "web-features:history"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "5"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "4",
+              "notes": "Until Firefox 5, the passed object is serialized using JSON. Starting in Firefox 6, the object is serialized using [the structured clone algorithm](https://developer.mozilla.org/docs/DOM/The_structured_clone_algorithm). This allows a wider variety of objects to be safely passed."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "11.5"
+            },
+            "opera_android": {
+              "version_added": "11.5"
+            },
+            "safari": {
+              "version_added": "5"
+            },
+            "safari_ios": {
+              "version_added": "4"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "unused_parameter": {
+          "__compat": {
+            "description": "Whether the `unused` parameter is used",
+            "support": {
+              "chrome": {
+                "version_added": false
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "5",
+                "notes": "This feature may be removed, see [bug 223190](https://webkit.org/b/223190)."
+              },
+              "safari_ios": {
+                "version_added": "4",
+                "notes": "This feature may be removed, see [bug 223190](https://webkit.org/b/223190)."
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": false,
+              "deprecated": true
+            }
+          }
+        }
+      },
+      "scrollRestoration": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/History/scrollRestoration",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-scroll-restoration-dev",
+          "tags": [
+            "web-features:history"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "46"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "46"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "state": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/History/state",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-history-state-dev",
+          "tags": [
+            "web-features:history"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "19"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "6"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

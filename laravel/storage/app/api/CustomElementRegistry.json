@@ -1,0 +1,312 @@
+{
+  "api": {
+    "CustomElementRegistry": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry",
+        "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-api",
+        "tags": [
+          "web-features:autonomous-custom-elements"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "54"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "63"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "10.1"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "builtin_element_support": {
+        "__compat": {
+          "description": "Customized built-in element support",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/define#defining_a_customized_built-in_element",
+          "tags": [
+            "web-features:customized-built-in-elements"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "67"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "63"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/182671"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "define": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/define",
+          "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-define-dev",
+          "tags": [
+            "web-features:autonomous-custom-elements"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "54"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "63"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "10.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "disabledFeatures_static_property": {
+          "__compat": {
+            "description": "Supports `disabledFeatures` static property",
+            "tags": [
+              "web-features:autonomous-custom-elements"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "77"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "92"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      },
+      "get": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/get",
+          "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-get-dev",
+          "tags": [
+            "web-features:autonomous-custom-elements"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "54"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "63"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "10.1",
+              "partial_implementation": true,
+              "notes": "Supports 'Autonomous custom elements' but not 'Customized built-in elements'. See [bug 182671](https://webkit.org/b/182671)."
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getName": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/getName",
+          "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-getname",
+          "tags": [
+            "web-features:autonomous-custom-elements"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "117"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "116"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "17",
+              "partial_implementation": true,
+              "notes": "Supports 'Autonomous custom elements' but not 'Customized built-in elements'."
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "upgrade": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/upgrade",
+          "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-upgrade-dev",
+          "tags": [
+            "web-features:autonomous-custom-elements"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "68"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "63"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "12.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "whenDefined": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/whenDefined",
+          "spec_url": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-whendefined-dev",
+          "tags": [
+            "web-features:autonomous-custom-elements"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "54"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "63"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "10.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

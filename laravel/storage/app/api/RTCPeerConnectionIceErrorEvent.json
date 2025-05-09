@@ -1,0 +1,299 @@
+{
+  "api": {
+    "RTCPeerConnectionIceErrorEvent": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent",
+        "spec_url": "https://w3c.github.io/webrtc-pc/#rtcpeerconnectioniceerrorevent",
+        "tags": [
+          "web-features:webrtc"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "77"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": false
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "14.1"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "RTCPeerConnectionIceErrorEvent": {
+        "__compat": {
+          "description": "`RTCPeerConnectionIceErrorEvent()` constructor",
+          "spec_url": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectioniceerrorevent-constructor",
+          "tags": [
+            "web-features:webrtc"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "14.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "address": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionIceErrorEvent/address",
+          "spec_url": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectioniceerrorevent-address",
+          "tags": [
+            "web-features:webrtc"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "14.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "errorCode": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectioniceerrorevent-errorcode",
+          "tags": [
+            "web-features:webrtc"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "14.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "errorText": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectioniceerrorevent-errortext",
+          "tags": [
+            "web-features:webrtc"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "14.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "hostCandidate": {
+        "__compat": {
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "port": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectioniceerrorevent-port",
+          "tags": [
+            "web-features:webrtc"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "81"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "14.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "url": {
+        "__compat": {
+          "spec_url": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnectioniceerrorevent-url",
+          "tags": [
+            "web-features:webrtc"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "77"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "14.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

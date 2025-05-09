@@ -1,0 +1,228 @@
+{
+  "api": {
+    "RTCEncodedVideoFrame": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCEncodedVideoFrame",
+        "spec_url": "https://w3c.github.io/webrtc-encoded-transform/#rtcencodedvideoframe",
+        "tags": [
+          "web-features:webrtc-encoded-transform"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "86"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "117"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "15.4"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "RTCEncodedVideoFrame": {
+        "__compat": {
+          "description": "`RTCEncodedVideoFrame()` constructor",
+          "spec_url": "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-constructor",
+          "tags": [
+            "web-features:webrtc-encoded-transform"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "127"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "data": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCEncodedVideoFrame/data",
+          "spec_url": "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-data",
+          "tags": [
+            "web-features:webrtc-encoded-transform"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "86"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "117"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getMetadata": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCEncodedVideoFrame/getMetadata",
+          "spec_url": "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-getmetadata",
+          "tags": [
+            "web-features:webrtc-encoded-transform"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "86"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "117"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "timestamp": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCEncodedVideoFrame/timestamp",
+          "support": {
+            "chrome": {
+              "version_added": "86"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "117"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": false,
+            "deprecated": true
+          }
+        }
+      },
+      "type": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/RTCEncodedVideoFrame/type",
+          "spec_url": "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-type",
+          "tags": [
+            "web-features:webrtc-encoded-transform"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "86"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "117"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

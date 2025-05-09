@@ -1,0 +1,122 @@
+{
+  "api": {
+    "FileSystem": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystem",
+        "spec_url": "https://wicg.github.io/entries-api/#api-domfilesystem",
+        "support": {
+          "chrome": {
+            "version_added": "7"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "≤18",
+            "notes": "Before Edge 79, this API was only supported in drag-and-drop scenarios using the [`DataTransferItem.webkitGetAsEntry()`](https://developer.mozilla.org/docs/Web/API/DataTransferItem/webkitGetAsEntry) method. It was not available for use in file or folder picker panels (such as when you use an [`&lt;input&gt;`](https://developer.mozilla.org/docs/Web/HTML/Element/input) element with the [`HTMLInputElement.webkitdirectory`](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory) attribute."
+          },
+          "firefox": {
+            "version_added": "50"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "11.1"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": "≤37"
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "name": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystem/name",
+          "spec_url": "https://wicg.github.io/entries-api/#dom-filesystem-name",
+          "support": {
+            "chrome": {
+              "version_added": "7"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "≤18"
+            },
+            "firefox": {
+              "version_added": "50"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "root": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/FileSystem/root",
+          "spec_url": "https://wicg.github.io/entries-api/#dom-filesystem-root",
+          "support": {
+            "chrome": {
+              "version_added": "7"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "≤18"
+            },
+            "firefox": {
+              "version_added": "50"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

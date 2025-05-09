@@ -1,0 +1,520 @@
+{
+  "api": {
+    "XRWebGLBinding": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding",
+        "spec_url": "https://immersive-web.github.io/layers/#XRWebGLBindingtype",
+        "tags": [
+          "web-features:webxr-layers"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "89"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": false
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": true,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "XRWebGLBinding": {
+        "__compat": {
+          "description": "`XRWebGLBinding()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/XRWebGLBinding",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-xrwebglbinding",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "89"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "createCubeLayer": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/createCubeLayer",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-createcubelayer",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "createCylinderLayer": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/createCylinderLayer",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-createcylinderlayer",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "createEquirectLayer": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/createEquirectLayer",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-createequirectlayer",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "createProjectionLayer": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/createProjectionLayer",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-createprojectionlayer",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "createQuadLayer": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/createQuadLayer",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-createquadlayer",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getCameraImage": {
+        "__compat": {
+          "spec_url": "https://immersive-web.github.io/raw-camera-access/#dom-xrwebglbinding-getcameraimage",
+          "tags": [
+            "web-features:webxr-camera"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "107"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getDepthInformation": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/getDepthInformation",
+          "spec_url": "https://immersive-web.github.io/depth-sensing/#dom-xrwebglbinding-getdepthinformation",
+          "tags": [
+            "web-features:webxr-depth-sensing"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "90"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getReflectionCubeMap": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/getReflectionCubeMap",
+          "spec_url": "https://immersive-web.github.io/lighting-estimation/#dom-xrwebglbinding-getreflectioncubemap",
+          "tags": [
+            "web-features:webxr-lighting-estimation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "90"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getSubImage": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/getSubImage",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-getsubimage",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getViewSubImage": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/getViewSubImage",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-getviewsubimage",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "nativeProjectionScaleFactor": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/nativeProjectionScaleFactor",
+          "spec_url": "https://immersive-web.github.io/layers/#dom-xrwebglbinding-nativeprojectionscalefactor",
+          "tags": [
+            "web-features:webxr-layers"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": {
+              "version_added": "16.1"
+            },
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1983 @@
+{
+  "api": {
+    "XMLHttpRequest": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest",
+        "spec_url": "https://xhr.spec.whatwg.org/#interface-xmlhttprequest",
+        "tags": [
+          "web-features:xhr"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "1"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "12"
+          },
+          "firefox": {
+            "version_added": "1"
+          },
+          "firefox_android": "mirror",
+          "ie": [
+            {
+              "version_added": "7"
+            },
+            {
+              "version_added": "5",
+              "partial_implementation": true,
+              "notes": "Implemented via `ActiveXObject('Microsoft.XMLHTTP')`"
+            }
+          ],
+          "oculus": "mirror",
+          "opera": {
+            "version_added": "8"
+          },
+          "opera_android": {
+            "version_added": "10.1"
+          },
+          "safari": {
+            "version_added": "1.2"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": "≤37"
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "XMLHttpRequest": {
+        "__compat": {
+          "description": "`XMLHttpRequest()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/XMLHttpRequest",
+          "spec_url": "https://xhr.spec.whatwg.org/#dom-xmlhttprequest",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "7"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "3"
+            },
+            "safari_ios": {
+              "version_added": "1"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "worker_support": {
+        "__compat": {
+          "description": "Available in workers",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "4"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "3.5"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "10.6"
+            },
+            "opera_android": {
+              "version_added": "11"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": {
+              "version_added": "5"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "4"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "abort": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/abort",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-abort()-method",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "5"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "abort_event": {
+        "__compat": {
+          "description": "`abort` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/abort_event",
+          "spec_url": [
+            "https://xhr.spec.whatwg.org/#event-xhr-abort",
+            "https://xhr.spec.whatwg.org/#handler-xhr-onabort"
+          ],
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "3.5"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1.3"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "authorization_removed_cross_origin": {
+        "__compat": {
+          "description": "`Authorization` header removed from cross-origin redirects",
+          "spec_url": "https://fetch.spec.whatwg.org/#http-redirect-fetch",
+          "support": {
+            "chrome": {
+              "version_added": false
+            },
+            "chrome_android": "mirror",
+            "deno": {
+              "version_added": false
+            },
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "111"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "16.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "error_event": {
+        "__compat": {
+          "description": "`error` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/error_event",
+          "spec_url": [
+            "https://xhr.spec.whatwg.org/#event-xhr-error",
+            "https://xhr.spec.whatwg.org/#handler-xhr-onerror"
+          ],
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1.3"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getAllResponseHeaders": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/getAllResponseHeaders",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-getallresponseheaders()-method",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1",
+              "notes": "Starting from Firefox 49, empty headers are returned as empty strings in case the preference `network.http.keep_empty_response_headers_as_empty_string` is set to `true`, defaulting to `false`. Before Firefox 49 empty headers had been ignored. Since Firefox 50 the preference defaults to `true`."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "5"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "header_names_lowercase": {
+          "__compat": {
+            "description": "Header names returned in all lower case",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "60"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "64"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "11"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      },
+      "getResponseHeader": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/getResponseHeader",
+          "spec_url": "https://xhr.spec.whatwg.org/#dom-xmlhttprequest-getresponseheader",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1",
+              "notes": "Starting from Firefox 49, empty headers are returned as empty strings in case the preference `network.http.keep_empty_response_headers_as_empty_string` is set to `true`, defaulting to `false`. Before Firefox 49 empty headers had been ignored. Since Firefox 50 the preference defaults to `true`."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "5"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "8"
+            },
+            "opera_android": {
+              "version_added": "10.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "load_event": {
+        "__compat": {
+          "description": "`load` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/load_event",
+          "spec_url": [
+            "https://xhr.spec.whatwg.org/#event-xhr-load",
+            "https://xhr.spec.whatwg.org/#handler-xhr-onload"
+          ],
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "9"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1.3"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "loadend_event": {
+        "__compat": {
+          "description": "`loadend` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/loadend_event",
+          "spec_url": [
+            "https://xhr.spec.whatwg.org/#event-xhr-loadend",
+            "https://xhr.spec.whatwg.org/#handler-xhr-onloadend"
+          ],
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "18"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "5"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": {
+              "version_added": "3"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "loadstart_event": {
+        "__compat": {
+          "description": "`loadstart` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/loadstart_event",
+          "spec_url": [
+            "https://xhr.spec.whatwg.org/#event-xhr-loadstart",
+            "https://xhr.spec.whatwg.org/#handler-xhr-onloadstart"
+          ],
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "3.5"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1.3"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "open": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/open",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-open()-method",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1",
+              "notes": "Starting in Firefox 30, synchronous requests on the main thread have been deprecated due to their negative impact on performance and the user experience. Therefore, the `async` parameter may not be `false` except in a `Worker`."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "5"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "8"
+            },
+            "opera_android": {
+              "version_added": "10.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "overrideMimeType": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/overrideMimeType",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-overridemimetype()-method",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": [
+              {
+                "version_added": "11"
+              },
+              {
+                "version_added": "5",
+                "partial_implementation": true,
+                "notes": "Implemented via `ActiveXObject`"
+              }
+            ],
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "progress_event": {
+        "__compat": {
+          "description": "`progress` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/progress_event",
+          "spec_url": [
+            "https://xhr.spec.whatwg.org/#event-xhr-progress",
+            "https://xhr.spec.whatwg.org/#handler-xhr-onprogress"
+          ],
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "3"
+            },
+            "safari_ios": {
+              "version_added": "1"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "readyState": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/readyState",
+          "spec_url": "https://xhr.spec.whatwg.org/#states",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "7"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "8"
+            },
+            "opera_android": {
+              "version_added": "10.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "readystatechange_event": {
+        "__compat": {
+          "description": "`readystatechange` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/readystatechange_event",
+          "spec_url": [
+            "https://xhr.spec.whatwg.org/#event-xhr-readystatechange",
+            "https://xhr.spec.whatwg.org/#handler-xhr-onreadystatechange"
+          ],
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "5"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "9"
+            },
+            "opera_android": {
+              "version_added": "10.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "response": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/response",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-response-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "9"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "6"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "11.6"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "responseText": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseText",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-responsetext-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "5",
+              "notes": "Before Internet Explorer 10, the value of `XMLHttpRequest.responseText` could be read only once the request was complete."
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "8"
+            },
+            "opera_android": {
+              "version_added": "10.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "responseType": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-responsetype-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "31"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "6"
+            },
+            "firefox_android": {
+              "version_added": "50"
+            },
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": [
+              {
+                "version_added": "18"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "15"
+              }
+            ],
+            "opera_android": [
+              {
+                "version_added": "18"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "14"
+              }
+            ],
+            "safari": {
+              "version_added": "5.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "arraybuffer_value": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#arraybuffer",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "31"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "6"
+              },
+              "firefox_android": {
+                "version_added": "50"
+              },
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "15"
+                }
+              ],
+              "opera_android": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "14"
+                }
+              ],
+              "safari": {
+                "version_added": "5.1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "blob_value": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#blob",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "31"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "6"
+              },
+              "firefox_android": {
+                "version_added": "50"
+              },
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "15"
+                }
+              ],
+              "opera_android": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "14"
+                }
+              ],
+              "safari": {
+                "version_added": "5.1"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "document_value": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#document",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "31"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "11"
+              },
+              "firefox_android": {
+                "version_added": "50"
+              },
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "15"
+                }
+              ],
+              "opera_android": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "14"
+                }
+              ],
+              "safari": {
+                "version_added": "7"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "json_value": {
+          "__compat": {
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#json",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "31"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": "10"
+              },
+              "firefox_android": {
+                "version_added": "50"
+              },
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "15"
+                }
+              ],
+              "opera_android": [
+                {
+                  "version_added": "18"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "14"
+                }
+              ],
+              "safari": {
+                "version_added": "7"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      },
+      "responseURL": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseURL",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-responseurl-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "37"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "14"
+            },
+            "firefox": {
+              "version_added": "32"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "8"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "responseXML": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseXML",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-responsexml-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1",
+              "notes": "Before Firefox 51, an error parsing the received data added a `&lt;parsererror&gt;` node to the top of the `Document` and then returned the `Document` in whatever state it happens to be in. This was inconsistent with the specification. Starting with Firefox 51, this scenario now correctly returns `null` as per the spec."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "7"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "3"
+            },
+            "safari_ios": {
+              "version_added": "1"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "send": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-send()-method",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "5"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "8"
+            },
+            "opera_android": {
+              "version_added": "10.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "body_ArrayBuffer_type": {
+          "__compat": {
+            "description": "ArrayBuffer as parameter to send()",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#ArrayBuffer",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "9"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "9"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "11.6"
+              },
+              "opera_android": {
+                "version_added": "12"
+              },
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": "≤37"
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "body_ArrayBufferView_type": {
+          "__compat": {
+            "description": "ArrayBufferView as parameter to send()",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#ArrayBufferView",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "22"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "20"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "11.6"
+              },
+              "opera_android": {
+                "version_added": "12"
+              },
+              "safari": {
+                "version_added": "7"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "body_Blob_type": {
+          "__compat": {
+            "description": "Blob as parameter to send()",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#Blob",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "22"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "2"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "12"
+              },
+              "opera_android": {
+                "version_added": "12"
+              },
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "body_FormData_type": {
+          "__compat": {
+            "description": "FormData as parameter to send()",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#FormData",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "6"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "2"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "10"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "12"
+              },
+              "opera_android": {
+                "version_added": "12"
+              },
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": "≤37"
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "body_URLSearchParams_type": {
+          "__compat": {
+            "description": "URLSearchParams as parameter to send()",
+            "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#URLSearchParams",
+            "tags": [
+              "web-features:xhr"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "59"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "17"
+              },
+              "firefox": {
+                "version_added": "44"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": [
+                {
+                  "version_added": "15"
+                },
+                {
+                  "version_added": "10.1",
+                  "version_removed": "15",
+                  "partial_implementation": true,
+                  "notes": "Doesn't send the correct `Content-Type` header by default. See [bug 227477](https://webkit.org/b/227477)."
+                }
+              ],
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      },
+      "setAttributionReporting": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/setAttributionReporting",
+          "spec_url": "https://wicg.github.io/attribution-reporting-api/#dom-xmlhttprequest-setattributionreporting",
+          "support": {
+            "chrome": {
+              "version_added": "125"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "setPrivateToken": {
+        "__compat": {
+          "spec_url": "https://wicg.github.io/trust-token-api/#dom-xmlhttprequest-setprivatetoken",
+          "support": {
+            "chrome": {
+              "version_added": "117"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "setRequestHeader": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/setRequestHeader",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-setrequestheader()-method",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "5"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "8"
+            },
+            "opera_android": {
+              "version_added": "10.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "status": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/status",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-status-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "7",
+              "notes": "Internet Explorer version 5 and 6 supported ajax calls using `ActiveXObject()`"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "8"
+            },
+            "opera_android": {
+              "version_added": "10.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "statusText": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/statusText",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-statustext-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "7",
+              "notes": "Internet Explorer version 5 and 6 supported ajax calls using `ActiveXObject()`"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1.2"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "timeout": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/timeout",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "29"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "12"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "8"
+            },
+            "oculus": "mirror",
+            "opera": [
+              {
+                "version_added": "17"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "16"
+              }
+            ],
+            "opera_android": [
+              {
+                "version_added": "18"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "16"
+              }
+            ],
+            "safari": {
+              "version_added": "7"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "timeout_event": {
+        "__compat": {
+          "description": "`timeout` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/timeout_event",
+          "spec_url": [
+            "https://xhr.spec.whatwg.org/#event-xhr-timeout",
+            "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout"
+          ],
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "29"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "12"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "8"
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "7"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": {
+              "version_added": "1.0"
+            },
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "upload": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/upload",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-upload-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "3.5"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": {
+              "version_added": "3"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "withCredentials": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/withCredentials",
+          "spec_url": "https://xhr.spec.whatwg.org/#the-withcredentials-attribute",
+          "tags": [
+            "web-features:xhr"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "3"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "3.5",
+              "notes": "Starting with Firefox 11, it's no longer supported to use the `withCredentials` attribute when performing synchronous requests. Attempting to do so throws an `NS_ERROR_DOM_INVALID_ACCESS_ERR` exception."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "10",
+              "notes": "Internet Explorer versions 8 and 9 supported cross-domain requests (CORS) using [`XDomainRequest`](https://developer.mozilla.org/docs/Web/API/XDomainRequest)."
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "12"
+            },
+            "opera_android": {
+              "version_added": "12"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

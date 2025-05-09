@@ -1,0 +1,486 @@
+{
+  "html": {
+    "elements": {
+      "audio": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/HTML/Element/audio",
+          "spec_url": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element",
+          "tags": [
+            "web-features:audio"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "3"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "3.5",
+              "notes": "For Firefox to play audio, the server must serve the file using the correct MIME type."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "9"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "10.5"
+            },
+            "opera_android": {
+              "version_added": "11"
+            },
+            "safari": {
+              "version_added": "3.1"
+            },
+            "safari_ios": {
+              "version_added": "3"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        },
+        "autoplay": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-autoplay",
+            "tags": [
+              "web-features:audio"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "3",
+                "version_removed": "67"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12",
+                "version_removed": "79"
+              },
+              "firefox": {
+                "version_added": "3.5",
+                "version_removed": "67"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "9"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "10.5",
+                "version_removed": "53"
+              },
+              "opera_android": {
+                "version_added": "11",
+                "version_removed": "53"
+              },
+              "safari": {
+                "version_added": "3.1",
+                "version_removed": "17"
+              },
+              "safari_ios": {
+                "version_added": false
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "controls": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-controls",
+            "tags": [
+              "web-features:audio"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "3"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "3.5"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "9"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "10.5"
+              },
+              "opera_android": {
+                "version_added": "11"
+              },
+              "safari": {
+                "version_added": "3.1"
+              },
+              "safari_ios": {
+                "version_added": "3"
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": "3"
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "controlslist": {
+          "__compat": {
+            "spec_url": "https://wicg.github.io/controls-list/#solution-outline",
+            "tags": [
+              "web-features:controls-list"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "58"
+              },
+              "chrome_android": "mirror",
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": false
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "crossorigin": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-crossorigin",
+            "tags": [
+              "web-features:audio"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "33"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "≤18"
+              },
+              "firefox": [
+                {
+                  "version_added": "74"
+                },
+                {
+                  "version_added": "12",
+                  "version_removed": "74",
+                  "partial_implementation": true,
+                  "notes": "With `crossorigin=\"use-credentials\"`, cookies aren't sent during seek. See [bug 1532722](https://bugzil.la/1532722)."
+                }
+              ],
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "10"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "disableremoteplayback": {
+          "__compat": {
+            "spec_url": "https://w3c.github.io/remote-playback/#the-disableremoteplayback-attribute",
+            "tags": [
+              "web-features:remote-playback"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "121"
+              },
+              "chrome_android": {
+                "version_added": "56"
+              },
+              "edge": "mirror",
+              "firefox": {
+                "version_added": false
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "13.1"
+              },
+              "safari_ios": {
+                "version_added": "13"
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": false,
+                "impl_url": "https://crbug.com/234081017"
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "loop": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-loop",
+            "tags": [
+              "web-features:audio"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "3"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "11"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "9"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "10.5"
+              },
+              "opera_android": {
+                "version_added": "11"
+              },
+              "safari": {
+                "version_added": "3.1"
+              },
+              "safari_ios": {
+                "version_added": "3"
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": "3"
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "muted": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-muted",
+            "tags": [
+              "web-features:audio"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "15"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "≤18"
+              },
+              "firefox": {
+                "version_added": "11"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": false
+              },
+              "oculus": "mirror",
+              "opera": "mirror",
+              "opera_android": "mirror",
+              "safari": {
+                "version_added": "6"
+              },
+              "safari_ios": "mirror",
+              "samsunginternet_android": "mirror",
+              "webview_android": "mirror",
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "preload": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-preload",
+            "tags": [
+              "web-features:audio"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "3",
+                "notes": "Defaults to `metadata` in Chrome 64."
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": [
+                {
+                  "version_added": "4"
+                },
+                {
+                  "alternative_name": "autobuffer",
+                  "version_added": "3.5",
+                  "version_removed": "4"
+                }
+              ],
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "9"
+              },
+              "oculus": "mirror",
+              "opera": [
+                {
+                  "version_added": "15",
+                  "notes": "Defaults to `metadata` in Opera 51."
+                },
+                {
+                  "alternative_name": "autobuffer",
+                  "version_added": "10.5",
+                  "version_removed": "15"
+                }
+              ],
+              "opera_android": [
+                {
+                  "version_added": "14",
+                  "notes": "Defaults to `metadata` in Opera 51."
+                },
+                {
+                  "alternative_name": "autobuffer",
+                  "version_added": "11",
+                  "version_removed": "14"
+                }
+              ],
+              "safari": {
+                "version_added": "3.1"
+              },
+              "safari_ios": {
+                "version_added": "3"
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": "3",
+                "notes": "Defaults to `metadata` in Chrome 64."
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        },
+        "src": {
+          "__compat": {
+            "spec_url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-src",
+            "tags": [
+              "web-features:audio"
+            ],
+            "support": {
+              "chrome": {
+                "version_added": "3"
+              },
+              "chrome_android": "mirror",
+              "edge": {
+                "version_added": "12"
+              },
+              "firefox": {
+                "version_added": "3.5"
+              },
+              "firefox_android": "mirror",
+              "ie": {
+                "version_added": "9"
+              },
+              "oculus": "mirror",
+              "opera": {
+                "version_added": "10.5"
+              },
+              "opera_android": {
+                "version_added": "11"
+              },
+              "safari": {
+                "version_added": "3.1"
+              },
+              "safari_ios": {
+                "version_added": "3"
+              },
+              "samsunginternet_android": "mirror",
+              "webview_android": {
+                "version_added": "3"
+              },
+              "webview_ios": "mirror"
+            },
+            "status": {
+              "experimental": false,
+              "standard_track": true,
+              "deprecated": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

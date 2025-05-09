@@ -1,0 +1,285 @@
+{
+  "api": {
+    "VideoColorSpace": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace",
+        "spec_url": "https://w3c.github.io/webcodecs/#videocolorspace",
+        "tags": [
+          "web-features:webcodecs"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "94"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "130"
+          },
+          "firefox_android": {
+            "version_added": false
+          },
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "15.4"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "VideoColorSpace": {
+        "__compat": {
+          "description": "`VideoColorSpace()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/VideoColorSpace",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-videocolorspace-videocolorspace",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "17"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "fullRange": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/fullRange",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-videocolorspace-fullrange",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "matrix": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/matrix",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-videocolorspace-matrix",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "primaries": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/primaries",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-videocolorspace-primaries",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "toJSON": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/toJSON",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-videocolorspace-tojson",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "transfer": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/transfer",
+          "spec_url": "https://w3c.github.io/webcodecs/#dom-videocolorspace-transfer",
+          "tags": [
+            "web-features:webcodecs"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "94"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "130"
+            },
+            "firefox_android": {
+              "version_added": false
+            },
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "15.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

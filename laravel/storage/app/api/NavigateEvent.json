@@ -1,0 +1,558 @@
+{
+  "api": {
+    "NavigateEvent": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent",
+        "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigateevent-interface",
+        "tags": [
+          "web-features:navigation"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "102"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": false,
+            "impl_url": "https://bugzil.la/1777171"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false,
+            "impl_url": "https://webkit.org/b/258384"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": true,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "NavigateEvent": {
+        "__compat": {
+          "description": "`NavigateEvent()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/NavigateEvent",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#the-navigateevent-interface",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "canIntercept": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/canIntercept",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-canintercept-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": [
+              {
+                "version_added": "105"
+              },
+              {
+                "alternative_name": "canTransition",
+                "version_added": "102"
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "destination": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/destination",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-destination-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "downloadRequest": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/downloadRequest",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-downloadrequest-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "formData": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/formData",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-formdata-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "hashChange": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/hashChange",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-hashchange-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "hasUAVisualTransition": {
+        "__compat": {
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-hasuavisualtransition",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "118"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "info": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/info",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-info-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "intercept": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/intercept",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-intercept-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": [
+              {
+                "version_added": "105"
+              },
+              {
+                "alternative_name": "transitionWhile",
+                "version_added": "102",
+                "version_removed": "108"
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "navigationType": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/navigationType",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-navigationtype-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "scroll": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/scroll",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-scroll-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": [
+              {
+                "version_added": "105"
+              },
+              {
+                "alternative_name": "restoreScroll",
+                "version_added": "102",
+                "version_removed": "108"
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "signal": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/signal",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-signal-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "userInitiated": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/NavigateEvent/userInitiated",
+          "spec_url": "https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-navigateevent-userinitiated-dev",
+          "tags": [
+            "web-features:navigation"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "102"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

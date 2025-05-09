@@ -1,0 +1,662 @@
+{
+  "api": {
+    "SVGAnimationElement": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement",
+        "spec_url": "https://svgwg.org/specs/animations/#InterfaceSVGAnimationElement",
+        "tags": [
+          "web-features:smil-svg-animations"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "2"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "4"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": {
+            "version_added": "≤12.1"
+          },
+          "opera_android": {
+            "version_added": "≤12.1"
+          },
+          "safari": {
+            "version_added": "3"
+          },
+          "safari_ios": {
+            "version_added": "1"
+          },
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": "3"
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "beginElement": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginElement",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__beginElement",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "beginElementAt": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginElementAt",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__beginElementAt",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "beginEvent_event": {
+        "__compat": {
+          "description": "`beginEvent` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginEvent_event",
+          "spec_url": "https://svgwg.org/svg2-draft/interact.html#BeginEvent",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": [
+              {
+                "version_added": "35"
+              },
+              {
+                "version_added": "31",
+                "version_removed": "35",
+                "partial_implementation": true,
+                "notes": "The `onbegin` event handler property is not supported."
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "93"
+              },
+              {
+                "version_added": "6",
+                "version_removed": "93",
+                "partial_implementation": true,
+                "notes": "The `onbegin` event handler property is not supported."
+              }
+            ],
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "10",
+              "partial_implementation": true,
+              "notes": "The `onbegin` event handler property is not supported."
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "endElement": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endElement",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__endElement",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "endElementAt": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endElementAt",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__endElementAt",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "endEvent_event": {
+        "__compat": {
+          "description": "`endEvent` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endEvent_event",
+          "spec_url": "https://svgwg.org/svg2-draft/interact.html#EndEvent",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": [
+              {
+                "version_added": "35"
+              },
+              {
+                "version_added": "31",
+                "version_removed": "35",
+                "partial_implementation": true,
+                "notes": "The `onend` event handler property is not supported."
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "93"
+              },
+              {
+                "version_added": "6",
+                "version_removed": "93",
+                "partial_implementation": true,
+                "notes": "The `onend` event handler property is not supported."
+              }
+            ],
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "10",
+              "partial_implementation": true,
+              "notes": "The `onend` event handler property is not supported."
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getCurrentTime": {
+        "__compat": {
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__getCurrentTime",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getSimpleDuration": {
+        "__compat": {
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__getSimpleDuration",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "getStartTime": {
+        "__compat": {
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__getStartTime",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "repeatEvent_event": {
+        "__compat": {
+          "description": "`repeatEvent` event",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/repeatEvent_event",
+          "spec_url": "https://svgwg.org/svg2-draft/interact.html#RepeatEvent",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": [
+              {
+                "version_added": "35"
+              },
+              {
+                "version_added": "31",
+                "version_removed": "35",
+                "partial_implementation": true,
+                "notes": "The `onrepeat` event handler property is not supported."
+              }
+            ],
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": [
+              {
+                "version_added": "93"
+              },
+              {
+                "version_added": "6",
+                "version_removed": "93",
+                "partial_implementation": true,
+                "notes": "The `onrepeat` event handler property is not supported."
+              }
+            ],
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "10",
+              "partial_implementation": true,
+              "notes": "The `onrepeat` event handler property is not supported."
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "requiredExtensions": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/requiredExtensions",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__requiredExtensions",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "12"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "3"
+            },
+            "safari_ios": {
+              "version_added": "1"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "systemLanguage": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/systemLanguage",
+          "spec_url": "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "12"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "3"
+            },
+            "safari_ios": {
+              "version_added": "1"
+            },
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "targetElement": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/targetElement",
+          "spec_url": "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__targetElement",
+          "tags": [
+            "web-features:smil-svg-animations"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "2"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "4"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "3"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

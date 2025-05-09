@@ -1,0 +1,437 @@
+{
+  "api": {
+    "BluetoothCharacteristicProperties": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties",
+        "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#characteristicproperties-interface",
+        "tags": [
+          "web-features:web-bluetooth"
+        ],
+        "support": {
+          "chrome": [
+            {
+              "version_added": "70",
+              "partial_implementation": true,
+              "notes": "Linux support is not enabled by default."
+            },
+            {
+              "version_added": "56",
+              "version_removed": "70",
+              "partial_implementation": true,
+              "notes": "Only supported on macOS."
+            }
+          ],
+          "chrome_android": {
+            "version_added": "56"
+          },
+          "edge": "mirror",
+          "firefox": {
+            "version_added": false,
+            "impl_url": "https://bugzil.la/674737"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false,
+            "impl_url": "https://webkit.org/b/101034"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": false,
+            "impl_url": "https://crbug.com/40703318"
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": true,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "authenticatedSignedWrites": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/authenticatedSignedWrites",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-authenticatedsignedwrites",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "broadcast": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/broadcast",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-broadcast",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "indicate": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/indicate",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-indicate",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "notify": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/notify",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-notify",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "read": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/read",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-read",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "reliableWrite": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/reliableWrite",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-reliablewrite",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "writableAuxiliaries": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/writableAuxiliaries",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-writableauxiliaries",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "write": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/write",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-write",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "writeWithoutResponse": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/writeWithoutResponse",
+          "spec_url": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-writewithoutresponse",
+          "tags": [
+            "web-features:web-bluetooth"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "56"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false,
+              "impl_url": "https://bugzil.la/674737"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false,
+              "impl_url": "https://webkit.org/b/101034"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

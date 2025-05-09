@@ -1,0 +1,294 @@
+{
+  "api": {
+    "XRInputSourceArray": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRInputSourceArray",
+        "spec_url": "https://immersive-web.github.io/webxr/#xrinputsourcearray-interface",
+        "tags": [
+          "web-features:webxr-device"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "79"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": false
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": false
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": {
+            "version_added": "11.2"
+          },
+          "webview_android": {
+            "version_added": false,
+            "impl_url": "https://crbug.com/40652382"
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": true,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "entries": {
+        "__compat": {
+          "description": "`entries()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRInputSourceArray/entries",
+          "tags": [
+            "web-features:webxr-device"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "79"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": {
+              "version_added": "11.2"
+            },
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "forEach": {
+        "__compat": {
+          "description": "`forEach()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRInputSourceArray/forEach",
+          "tags": [
+            "web-features:webxr-device"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "79"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": {
+              "version_added": "11.2"
+            },
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "keys": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRInputSourceArray/keys",
+          "tags": [
+            "web-features:webxr-device"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "79"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": {
+              "version_added": "11.2"
+            },
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "length": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRInputSourceArray/length",
+          "spec_url": "https://immersive-web.github.io/webxr/#dom-xrinputsourcearray-length",
+          "tags": [
+            "web-features:webxr-device"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "79"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": {
+              "version_added": "11.2"
+            },
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "values": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/XRInputSourceArray/values",
+          "tags": [
+            "web-features:webxr-device"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "79"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": {
+              "version_added": "11.2"
+            },
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "@@iterator": {
+        "__compat": {
+          "description": "[Symbol.iterator]",
+          "tags": [
+            "web-features:webxr-device"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "79"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": false
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

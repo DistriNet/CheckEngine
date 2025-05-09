@@ -1,0 +1,28 @@
+location / {
+	rewrite  .*  https://test.experiment.websand.eu/ permanent;
+}
+
+location = /clear_cookies {
+	proxy_pass http://127.0.0.1:8080;
+	proxy_set_header X-Real-Ip $remote_addr;
+	proxy_set_header X-Host $host;
+	proxy_set_header X-Path /;
+	proxy_intercept_errors on;
+	error_page 404 = @homepage;
+}
+
+location ~ ^/sop {
+	proxy_pass http://127.0.0.1:8080;
+	proxy_set_header X-Real-Ip $remote_addr;
+	proxy_intercept_errors on;
+	error_page 404 = @homepage;
+}
+
+location /static/ {
+	alias /home/ubuntu/go/src/master-thesis-pieter-claeys/static/;
+}
+
+location @homepage {
+	rewrite  .*  https://test.experiment.websand.eu/ permanent;
+}
+

@@ -1,0 +1,66 @@
+services:
+  nginx:
+    container_name: ce-nginx
+    image: nginx:1.28-bookworm
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/sites-enabled/:/etc/nginx/sites-enabled/:ro
+      - ./nginx/includes/:/etc/nginx/includes/:ro
+      - ./certbot/html/:/var/www/letsencrypt/:ro
+      - ./certbot/letsencrypt/:/etc/letsencrypt/:ro
+      - ./laravel/:/var/www/html/:ro
+      - ./browseraudit/:/var/www/browseraudit/:ro
+      - ./php-fpm/socket/:/var/run/php/:rw
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - php-fpm
+      - memcached
+
+  certbot:
+    build:
+      context: ./certbot
+      dockerfile: ../certbot/Dockerfile
+    volumes:
+      - ./certbot/html/:/var/www/html/:rw
+      - ./certbot/letsencrypt/:/etc/letsencrypt/:rw
+    command: certonly --config /etc/letsencrypt/certbot.conf
+
+  php-fpm:
+    container_name: ce-php-fpm
+    build:
+      context: ./laravel
+      dockerfile: ../laravel/Dockerfile
+    volumes:
+      - ./laravel/:/var/www/html/:rw
+      - ./php-fpm/config:/etc/php/8.4/fpm/:ro
+      - ./php-fpm/socket/:/run/php/:rw
+      - ./log/php-fpm/:/var/log/php-fpm/:rw
+    command: php-fpm -y /etc/php/8.4/fpm/php-fpm.conf -c /etc/php/8.4/fpm/php.ini
+
+  laravel:
+    container_name: ce-laravel
+    build:
+      context: ./laravel
+      dockerfile: ../laravel/Dockerfile
+    volumes:
+      - ./laravel/:/var/www/html:rw
+    ports:
+      - "8000:8000"
+    command: "/var/www/html/boot.sh"
+
+  memcached:
+    container_name: ce-memcached
+    image: memcached:alpine3.22
+    ports:
+      - "11211:11211"
+
+  npm:
+    image: node:lts-alpine3.22
+    working_dir: /app
+    volumes:
+      - ./laravel/:/app
+    entrypoint: npm

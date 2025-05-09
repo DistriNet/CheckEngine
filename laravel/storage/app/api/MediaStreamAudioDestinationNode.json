@@ -1,0 +1,127 @@
+{
+  "api": {
+    "MediaStreamAudioDestinationNode": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode",
+        "spec_url": "https://webaudio.github.io/web-audio-api/#MediaStreamAudioDestinationNode",
+        "tags": [
+          "web-features:web-audio"
+        ],
+        "support": {
+          "chrome": {
+            "version_added": "25"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "18"
+          },
+          "firefox": {
+            "version_added": "25"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "11"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": "≤37"
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "MediaStreamAudioDestinationNode": {
+        "__compat": {
+          "description": "`MediaStreamAudioDestinationNode()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode",
+          "spec_url": "https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiodestinationnode-mediastreamaudiodestinationnode",
+          "tags": [
+            "web-features:web-audio"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "57"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "53"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "14.1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "stream": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode/stream",
+          "spec_url": "https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiodestinationnode-stream",
+          "tags": [
+            "web-features:web-audio"
+          ],
+          "support": {
+            "chrome": {
+              "version_added": "25"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "18"
+            },
+            "firefox": {
+              "version_added": "25"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "api": {
+    "UIEvent": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/UIEvent",
+        "spec_url": "https://w3c.github.io/uievents/#idl-uievent",
+        "support": {
+          "chrome": {
+            "version_added": "1"
+          },
+          "chrome_android": "mirror",
+          "edge": {
+            "version_added": "12"
+          },
+          "firefox": {
+            "version_added": "1"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": "9"
+          },
+          "oculus": "mirror",
+          "opera": {
+            "version_added": "≤12.1"
+          },
+          "opera_android": {
+            "version_added": "≤12.1"
+          },
+          "safari": {
+            "version_added": "1"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": {
+            "version_added": "≤37"
+          },
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "UIEvent": {
+        "__compat": {
+          "description": "`UIEvent()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/UIEvent/UIEvent",
+          "spec_url": "https://w3c.github.io/uievents/#dom-uievent-uievent",
+          "support": {
+            "chrome": {
+              "version_added": "26"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "11"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "7"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": {
+              "version_added": "1.0"
+            },
+            "webview_android": {
+              "version_added": "1"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "detail": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/UIEvent/detail",
+          "spec_url": "https://w3c.github.io/uievents/#dom-uievent-detail",
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "9",
+              "partial_implementation": true,
+              "notes": "Always `0` on `click` and `dblclick` events. On `mousedown` and `mouseup` events, the count is not unique to the element, but is rather the global click count for the current document -- even across refreshes."
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "initUIEvent": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/UIEvent/initUIEvent",
+          "spec_url": "https://w3c.github.io/uievents/#dom-uievent-inituievent",
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "9"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      },
+      "sourceCapabilities": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/UIEvent/sourceCapabilities",
+          "spec_url": "https://wicg.github.io/input-device-capabilities/#dom-uievent-sourcecapabilities",
+          "support": {
+            "chrome": {
+              "version_added": "47"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": false
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": false
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": true,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "view": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/UIEvent/view",
+          "spec_url": "https://w3c.github.io/uievents/#dom-uievent-view",
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": {
+              "version_added": "12"
+            },
+            "firefox": {
+              "version_added": "1"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "9"
+            },
+            "oculus": "mirror",
+            "opera": {
+              "version_added": "≤12.1"
+            },
+            "opera_android": {
+              "version_added": "≤12.1"
+            },
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "which": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/UIEvent/which",
+          "spec_url": "https://w3c.github.io/uievents/#dom-uievent-which",
+          "support": {
+            "chrome": {
+              "version_added": "1"
+            },
+            "chrome_android": "mirror",
+            "edge": [
+              {
+                "version_added": "79"
+              },
+              {
+                "version_added": "12",
+                "version_removed": "79",
+                "partial_implementation": true,
+                "notes": "Only supported for [`KeyboardEvent`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent) and [`MouseEvent`](https://developer.mozilla.org/docs/Web/API/MouseEvent), not all `UIEvent` objects."
+              }
+            ],
+            "firefox": {
+              "version_added": "1",
+              "notes": "On `mousemove` events, the `which` property is incorrectly always set to `1`."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": "9",
+              "partial_implementation": true,
+              "notes": "Only supported for [`KeyboardEvent`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent) and [`MouseEvent`](https://developer.mozilla.org/docs/Web/API/MouseEvent), not all `UIEvent` objects."
+            },
+            "oculus": "mirror",
+            "opera": [
+              {
+                "version_added": "15"
+              },
+              {
+                "version_added": "≤12.1",
+                "version_removed": "15",
+                "partial_implementation": true,
+                "notes": "Only supported for [`KeyboardEvent`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent) and [`MouseEvent`](https://developer.mozilla.org/docs/Web/API/MouseEvent), not all `UIEvent` objects."
+              }
+            ],
+            "opera_android": [
+              {
+                "version_added": "14"
+              },
+              {
+                "version_added": "≤12.1",
+                "version_removed": "14",
+                "partial_implementation": true,
+                "notes": "Only supported for [`KeyboardEvent`](https://developer.mozilla.org/docs/Web/API/KeyboardEvent) and [`MouseEvent`](https://developer.mozilla.org/docs/Web/API/MouseEvent), not all `UIEvent` objects."
+              }
+            ],
+            "safari": {
+              "version_added": "1"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": {
+              "version_added": "≤37"
+            },
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      }
+    }
+  }
+}

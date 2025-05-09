@@ -1,0 +1,1694 @@
+{
+  "api": {
+    "DOMMatrixReadOnly": {
+      "__compat": {
+        "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly",
+        "spec_url": "https://drafts.fxtf.org/geometry/#DOMMatrix",
+        "support": {
+          "chrome": {
+            "version_added": "61"
+          },
+          "chrome_android": "mirror",
+          "edge": "mirror",
+          "firefox": {
+            "version_added": "33"
+          },
+          "firefox_android": "mirror",
+          "ie": {
+            "version_added": false
+          },
+          "oculus": "mirror",
+          "opera": "mirror",
+          "opera_android": "mirror",
+          "safari": {
+            "version_added": "11"
+          },
+          "safari_ios": "mirror",
+          "samsunginternet_android": "mirror",
+          "webview_android": "mirror",
+          "webview_ios": "mirror"
+        },
+        "status": {
+          "experimental": false,
+          "standard_track": true,
+          "deprecated": false
+        }
+      },
+      "DOMMatrixReadOnly": {
+        "__compat": {
+          "description": "`DOMMatrixReadOnly()` constructor",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/DOMMatrixReadOnly",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-dommatrixreadonly",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "62"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "worker_support": {
+        "__compat": {
+          "description": "Available in workers",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "69"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "a": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-a",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "b": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-b",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "c": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-c",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "d": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-d",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "e": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-e",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "f": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-f",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "flipX": {
+        "__compat": {
+          "description": "`flipX()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/flipX",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-flipx",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "flipY": {
+        "__compat": {
+          "description": "`flipY()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-flipy",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "fromFloat32Array_static": {
+        "__compat": {
+          "description": "`fromFloat32Array()` static method",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-fromfloat32array",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "69"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "fromFloat64Array_static": {
+        "__compat": {
+          "description": "`fromFloat64Array()` static method",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-fromfloat64array",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "69"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "fromMatrix_static": {
+        "__compat": {
+          "description": "`fromMatrix()` static method",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-frommatrix",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "69"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "inverse": {
+        "__compat": {
+          "description": "`inverse()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/inverse",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-inverse",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "is2D": {
+        "__compat": {
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-is2d",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "isIdentity": {
+        "__compat": {
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-isidentity",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "59"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m11": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m11",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m12": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m12",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m13": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m13",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m14": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m14",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m21": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m21",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m22": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m22",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m23": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m23",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m24": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m24",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m31": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m31",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m32": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m32",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m33": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m33",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m34": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m34",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m41": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m41",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m42": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m42",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m43": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m43",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "m44": {
+        "__compat": {
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly#instance_properties",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-m44",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "multiply": {
+        "__compat": {
+          "description": "`multiply()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-multiply",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "rotate": {
+        "__compat": {
+          "description": "`rotate()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-rotate",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "rotateAxisAngle": {
+        "__compat": {
+          "description": "`rotateAxisAngle()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-rotateaxisangle",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "rotateFromVector": {
+        "__compat": {
+          "description": "`rotateFromVector()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-rotatefromvector",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "scale": {
+        "__compat": {
+          "description": "`scale()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scale",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-scale",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33",
+              "notes": "Firefox 69 introduced support for the modern six-parameter syntax for `scale()`. Previously, it only supported the older three-parameter syntax: `scale(scaleX[, originX][, originY]]])`."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "scale3d": {
+        "__compat": {
+          "description": "`scale3d()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-scale3d",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33",
+              "notes": "Starting in Firefox 69, the first parameter (`scale`) is now optional with a default value of 1, per the specification. Previously it was required."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "scaleNonUniform": {
+        "__compat": {
+          "description": "`scaleNonUniform()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-scalenonuniform",
+          "support": {
+            "chrome": {
+              "version_added": "73"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "17.4"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": true
+          }
+        }
+      },
+      "skewX": {
+        "__compat": {
+          "description": "`skewX()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-skewx",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33",
+              "notes": "Before Firefox 69, the `sx` parameter was required; you may now call `skewX()` with no inputs. A value of 0 is correctly assumed."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "skewY": {
+        "__compat": {
+          "description": "`skewY()`",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-skewy",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33",
+              "notes": "Before Firefox 69, the `sy` parameter was required; you may now call `skewY()` with no inputs. A value of 0 is correctly assumed."
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "toFloat32Array": {
+        "__compat": {
+          "description": "`toFloat32Array()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat32Array",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-tofloat32array",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "toFloat64Array": {
+        "__compat": {
+          "description": "`toFloat64Array()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toFloat64Array",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-tofloat64array",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "toJSON": {
+        "__compat": {
+          "description": "`toJSON()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toJSON",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-tojson",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "62"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "toString": {
+        "__compat": {
+          "description": "`toString()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/toString",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "transformPoint": {
+        "__compat": {
+          "description": "`transformPoint()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/transformPoint",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-transformpoint",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      },
+      "translate": {
+        "__compat": {
+          "description": "`translate()`",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/translate",
+          "spec_url": "https://drafts.fxtf.org/geometry/#dom-dommatrixreadonly-translate",
+          "support": {
+            "chrome": {
+              "version_added": "61"
+            },
+            "chrome_android": "mirror",
+            "edge": "mirror",
+            "firefox": {
+              "version_added": "33"
+            },
+            "firefox_android": "mirror",
+            "ie": {
+              "version_added": false
+            },
+            "oculus": "mirror",
+            "opera": "mirror",
+            "opera_android": "mirror",
+            "safari": {
+              "version_added": "11"
+            },
+            "safari_ios": "mirror",
+            "samsunginternet_android": "mirror",
+            "webview_android": "mirror",
+            "webview_ios": "mirror"
+          },
+          "status": {
+            "experimental": false,
+            "standard_track": true,
+            "deprecated": false
+          }
+        }
+      }
+    }
+  }
+}
